@@ -116,7 +116,6 @@
   }
   function renderCard() {
     const { ep } = state.pool[state.pick], sh = state.shows[ep.client_id] || {}, t = state.quiz.types[state.type];
-    const qi = (state.seed >>> 4) % ep.quotes.length, quote = ep.quotes[(qi + state.pick) % ep.quotes.length];
     const bec = because(chosenOptions(), ep);
     const link = (cls, href, label) => `<a class="${cls}${href ? '' : ' off'}" href="${esc(href || '#')}" target="_blank" rel="noopener">${label}</a>`;
     $('card').innerHTML = `
@@ -126,13 +125,11 @@
         <div class="typeline">${esc(t.line)}</div>
       </div>
       <div class="body">
-        <span class="chip" style="background:${esc(sh.color || '#003DA5')}">${esc(sh.name || ep.show)} · ${esc(sh.host || ep.host)}</span>
-        <div class="ep-num">הפרק שלך · פרק ${ep.ep} עם ${esc(ep.guest)}</div>
+        <div class="ep-lbl">הפרק שלך הוא</div>
+        <div class="chip">${esc(sh.name || ep.show)} · פרק ${ep.ep}</div>
         <div class="ep-title">${esc(ep.title)}</div>
-        <div class="ep-guest">${esc(ep.guest_line)}</div>
         ${ep.why ? `<p class="why">${esc(ep.why)}</p>` : ''}
         ${bec.length ? `<p class="because">כי אמרת ש${esc(bec[0])}${bec[1] ? ', וש' + esc(bec[1]) : ''}.</p>` : ''}
-        <blockquote class="quote"><p>„${esc(quote.text)}”</p><span class="who">${esc(quote.speaker)}, מתוך הפרק</span></blockquote>
       </div>
       <div class="listen">
         ${link('', ep.links.youtube, '<span class="ic yt">▶</span>יוטיוב')}
