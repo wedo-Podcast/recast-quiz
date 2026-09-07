@@ -47,8 +47,9 @@
   }
   function chosenOptions() { return state.answers.map((a) => a.option); }
   function show(id) {
+    // no scroll reset between screens: questions sit at a fixed height, so nothing jumps between taps
+    if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
     for (const s of document.querySelectorAll('.screen')) s.hidden = s.id !== id;
-    window.scrollTo(0, 0);
   }
   function renderProgress() {
     const n = state.quiz.meta.per_person, el = $('progress');
@@ -146,7 +147,7 @@
   function another() {
     if (!state.pool.length) return;
     state.pick = (state.pick + 1) % state.pool.length;
-    renderCard(); window.scrollTo(0, 0);
+    renderCard(); $('card').scrollIntoView({ behavior: 'smooth', block: 'start' });
     toast(state.pick === 0 ? 'חזרנו לפרק הראשון שבחרנו לך' : 'עוד פרק שמתאים לך');
   }
   function toast(msg) { const t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(t._t); t._t = setTimeout(() => { t.hidden = true; }, 2200); }
