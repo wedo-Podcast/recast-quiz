@@ -40,10 +40,10 @@
  "calibration": {
   "pool_size": 3,
   "show_bias": {
-   "remax_natasha": 1.0,
-   "remax_gil": 1.0,
-   "remax_carmit": 1.0,
-   "remax_yaki": 1.0
+   "remax_natasha": 0.995,
+   "remax_gil": 1.06,
+   "remax_carmit": 1.015,
+   "remax_yaki": 1.02
   }
  },
  "questions": [

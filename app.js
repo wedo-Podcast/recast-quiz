@@ -144,6 +144,7 @@
       </div>`;
   }
   function another() {
+    if (!state.pool.length) return;
     state.pick = (state.pick + 1) % state.pool.length;
     renderCard(); window.scrollTo(0, 0);
     toast(state.pick === 0 ? 'חזרנו לפרק הראשון שבחרנו לך' : 'עוד פרק שמתאים לך');
@@ -160,7 +161,18 @@
   function restart() { state.answers = []; state.world = null; state.qi = 0; state.pool = []; show('s-name'); $('name').focus(); }
 
   // ---------- boot ----------
+  function wire() {
+    $('btn-start').addEventListener('click', () => { if (!state.quiz) { toast('הפרקים עוד לא נטענו. נסה לרענן'); return; } show('s-name'); setTimeout(() => $('name').focus(), 50); });
+    $('btn-name').addEventListener('click', () => { state.name = $('name').value.trim() || 'חבר'; state.qi = 0; renderQuestion(); });
+    $('name').addEventListener('keydown', (e) => { if (e.key === 'Enter') $('btn-name').click(); });
+    $('options').addEventListener('click', (e) => { const b = e.target.closest('.opt'); if (b) answer(Number(b.dataset.i)); });
+    $('btn-back').addEventListener('click', back);
+    $('btn-share').addEventListener('click', share);
+    $('btn-another').addEventListener('click', another);
+    $('btn-restart').addEventListener('click', restart);
+  }
   async function boot() {
+    wire();
     try {
       const v = Date.now().toString(36).slice(0, 6);
       const [quiz, episodes, shows] = await Promise.all(['quiz', 'episodes', 'shows'].map((n) => fetch(`data/${n}.json?v=${v}`).then((r) => { if (!r.ok) throw new Error(n); return r.json(); })));
@@ -171,14 +183,6 @@
       $('intro-meta').textContent = 'לא הצלחנו לטעון את הפרקים. נסה לרענן.';
       return;
     }
-    $('btn-start').addEventListener('click', () => { show('s-name'); setTimeout(() => $('name').focus(), 50); });
-    $('btn-name').addEventListener('click', () => { state.name = $('name').value.trim() || 'חבר'; state.qi = 0; renderQuestion(); });
-    $('name').addEventListener('keydown', (e) => { if (e.key === 'Enter') $('btn-name').click(); });
-    $('options').addEventListener('click', (e) => { const b = e.target.closest('.opt'); if (b) answer(Number(b.dataset.i)); });
-    $('btn-back').addEventListener('click', back);
-    $('btn-share').addEventListener('click', share);
-    $('btn-another').addEventListener('click', another);
-    $('btn-restart').addEventListener('click', restart);
   }
   boot();
 })();
