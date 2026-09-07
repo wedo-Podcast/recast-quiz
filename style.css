@@ -43,12 +43,12 @@ h2{font-size:clamp(26px,7vw,34px);line-height:1.15;margin:6px 0 18px;font-weight
 .card{background:var(--card);border-radius:22px;box-shadow:var(--shadow);overflow:hidden;margin-top:8px}
 .card .band{background:var(--red);color:#fff;padding:20px 20px 18px}
 .card .band .hello{font-size:15px;opacity:.9}
-.card .band .type{font-size:clamp(28px,8vw,36px);font-weight:900;line-height:1.1;margin:2px 0 6px}
+.card .band .type{font-size:clamp(30px,8.4vw,38px);font-weight:900;line-height:1.08;margin:2px 0 6px}
 .card .band .typeline{font-size:15px;opacity:.95;line-height:1.4}
 .card .body{padding:18px 20px 8px}
 .chip{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:#fff;border-radius:999px;padding:5px 12px;margin-bottom:12px}
-.ep-num{font-size:13px;color:var(--muted);font-weight:600}
-.ep-title{font-size:clamp(21px,5.6vw,26px);font-weight:800;line-height:1.2;margin:4px 0 8px}
+.ep-num{font-size:13px;color:var(--red);font-weight:700}
+.ep-title{font-size:clamp(26px,7.2vw,34px);font-weight:900;line-height:1.12;margin:6px 0 10px;text-wrap:balance}
 .ep-guest{font-size:15px;color:var(--muted);line-height:1.45}
 .why{font-size:16px;line-height:1.5;margin:14px 0 6px;font-weight:500}
 .because{font-size:14px;color:var(--muted);line-height:1.5;margin:0 0 10px}
