@@ -1,8 +1,9 @@
 {
  "meta": {
   "title": "לכל אחד יש מה לשמוע ברימקס",
-  "version": "draft 06.09.2026",
-  "per_person": 8
+  "version": "bank v1 · 07.09.2026",
+  "per_person": 8,
+  "mode": "bank"
  },
  "types": {
   "field_fighter": {
@@ -31,218 +32,703 @@
   }
  },
  "worlds": {
-  "head_field": "הראש והשטח",
-  "sales": "המכירה",
+  "business": "העסק",
   "money": "המספרים",
-  "business": "העסק"
+  "head_field": "הראש",
+  "sales": "הלקוחות"
  },
  "calibration": {
   "pool_size": 3,
   "show_bias": {
-   "remax_natasha": 1.0264,
-   "remax_gil": 1.0552,
-   "remax_carmit": 1.0107,
-   "remax_yaki": 0.9415
+   "remax_natasha": 1.0,
+   "remax_gil": 1.0,
+   "remax_carmit": 1.0,
+   "remax_yaki": 1.0
   }
  },
  "questions": [
   {
-   "id": "q1",
-   "text": "איפה אתה בדרך?",
+   "id": "q1a",
+   "slot": 1,
+   "text": "כמה אנשים תלויים בך בבוקר?",
    "options": [
     {
-     "id": "a",
-     "label": "בחודשים הראשונים",
-     "phrase": "אתה בחודשים הראשונים",
-     "because": "אתה בחודשים הראשונים",
-     "w": {
-      "stage": {
-       "starter": 3
-      }
-     },
-     "pains": [
-      "career_entry"
-     ]
-    },
-    {
-     "id": "b",
-     "label": "כבר סוגר, בונה קצב",
-     "phrase": "אתה כבר סוגר",
-     "because": "אתה בונה קצב",
+     "label": "אף אחד, אני והטלפון",
+     "because": "אתה לבד עם הטלפון",
      "w": {
       "stage": {
        "builder": 3
-      }
-     }
-    },
-    {
-     "id": "c",
-     "label": "ותיק, מחפש את הקפיצה הבאה",
-     "phrase": "אתה מחפש את הקפיצה הבאה",
-     "because": "אתה מחפש את הקפיצה הבאה",
-     "w": {
-      "stage": {
-       "veteran_leap": 3
       },
       "type": {
+       "closer": 1
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "כמה, ואני איתם בשטח",
+     "because": "אתה בשטח עם הצוות",
+     "w": {
+      "stage": {
+       "veteran_leap": 2,
+       "manages_people": 1
+      },
+      "type": {
+       "field_fighter": 2,
        "leader": 1
       }
      },
-     "pains": [
-      "post_success"
-     ]
+     "id": "b"
     },
     {
-     "id": "d",
-     "label": "מנהל אנשים (זכיין / ראש צוות)",
-     "phrase": "אתה מנהל אנשים",
-     "because": "אתה מנהל אנשים",
+     "label": "צוות שלם",
+     "because": "צוות שלם תלוי בך",
      "w": {
       "stage": {
        "manages_people": 3
       },
       "type": {
        "leader": 2
-      },
-      "world": {
-       "business": 1
       }
-     }
-    }
-   ]
-  },
-  {
-   "id": "q2",
-   "text": "מה קודם?",
-   "options": [
-    {
-     "id": "a",
-     "label": "לסדר את הראש",
-     "because": "הראש קודם",
-     "hh": -2,
-     "w": {
-      "type": {
-       "strong_mind": 2
-      },
-      "style": {
-       "personal_story": 1
-      },
-      "tone": {
-       "inspiring": 1
-      }
-     }
+     },
+     "id": "c"
     },
     {
-     "id": "b",
-     "label": "כלים ופעולות למחר בבוקר",
-     "because": "אתה רוצה כלים למחר בבוקר",
-     "hh": 2,
+     "label": "יותר מדי",
+     "because": "יותר מדי אנשים תלויים בך",
      "w": {
-      "type": {
-       "closer": 1,
-       "system_builder": 1
+      "stage": {
+       "manages_people": 3
       },
-      "style": {
-       "tools": 2
+      "type": {
+       "leader": 1,
+       "system_builder": 1
       }
-     }
+     },
+     "pains": [
+      "all_on_me",
+      "burnout"
+     ],
+     "id": "d"
     }
    ]
   },
   {
-   "id": "q3",
-   "text": "מה הכי מעסיק אותך עכשיו?",
-   "selects_world": true,
+   "id": "q1b",
+   "slot": 1,
+   "text": "המשרד שלך היום:",
    "options": [
     {
-     "id": "a",
-     "label": "ה\"לא\" של הלקוחות, והשחיקה",
-     "world": "head_field",
-     "because": "ה\"לא\" של הלקוחות מעסיק אותך",
+     "label": "אני, שולחן וטלפון",
+     "because": "המשרד זה אתה ושולחן",
      "w": {
-      "world": {
-       "head_field": 3
+      "stage": {
+       "builder": 3
       },
       "type": {
-       "strong_mind": 2,
+       "closer": 1,
        "field_fighter": 1
       }
      },
+     "id": "a"
+    },
+    {
+     "label": "גדל, ואני עוד מוכר בעצמי",
+     "because": "אתה עדיין מוכר בעצמך",
+     "w": {
+      "stage": {
+       "builder": 2,
+       "veteran_leap": 2
+      },
+      "type": {
+       "closer": 2
+      }
+     },
      "pains": [
-      "rejection_stings",
+      "all_on_me"
+     ],
+     "id": "b"
+    },
+    {
+     "label": "מכונה שעובדת",
+     "because": "המשרד שלך הוא מכונה",
+     "w": {
+      "stage": {
+       "manages_people": 3
+      },
+      "type": {
+       "system_builder": 2
+      }
+     },
+     "id": "c"
+    },
+    {
+     "label": "גדול מדי בשביל הראש שלי",
+     "because": "המשרד גדל מהר מהראש",
+     "w": {
+      "stage": {
+       "manages_people": 3
+      },
+      "type": {
+       "strong_mind": 2,
+       "leader": 1
+      }
+     },
+     "pains": [
+      "post_success",
       "burnout"
-     ]
-    },
+     ],
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q1c",
+   "slot": 1,
+   "text": "בעסקה האחרונה שלך:",
+   "options": [
     {
-     "id": "b",
-     "label": "בלעדיות, עמלה והתנגדויות",
-     "world": "sales",
-     "because": "בלעדיות ועמלה מעסיקות אותך",
+     "label": "עשיתי הכול לבד",
+     "because": "אתה עושה הכול לבד",
      "w": {
-      "world": {
-       "sales": 3
+      "stage": {
+       "builder": 3
       },
       "type": {
-       "closer": 3
+       "closer": 2
       }
      },
      "pains": [
-      "exclusivity_objection",
-      "fee_objection"
-     ]
+      "all_on_me"
+     ],
+     "id": "a"
     },
     {
-     "id": "c",
-     "label": "הכסף: מימון, משכנתא, האם העסקה באמת נסגרת",
-     "world": "money",
-     "because": "המימון מעסיק אותך",
+     "label": "ליוויתי סוכן",
+     "because": "אתה מלווה סוכנים",
      "w": {
-      "world": {
-       "money": 3
+      "stage": {
+       "veteran_leap": 2,
+       "manages_people": 2
       },
       "type": {
-       "numbers_person": 3
+       "leader": 2
       }
      },
-     "pains": [
-      "financing"
-     ]
+     "id": "b"
     },
     {
-     "id": "d",
-     "label": "העסק: זמן, צוות, מערכות, השלב הבא",
-     "world": "business",
-     "because": "העסק והשלב הבא מעסיקים אותך",
+     "label": "חתמתי בסוף",
+     "because": "אתה חותם בסוף",
+     "w": {
+      "stage": {
+       "manages_people": 3
+      },
+      "type": {
+       "leader": 1,
+       "closer": 1
+      }
+     },
+     "id": "c"
+    },
+    {
+     "label": "שמעתי עליה בדיעבד",
+     "because": "אתה שומע על עסקאות בדיעבד",
+     "w": {
+      "stage": {
+       "manages_people": 3
+      },
+      "type": {
+       "system_builder": 2,
+       "leader": 1
+      }
+     },
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q2a",
+   "slot": 2,
+   "text": "מה גונב לך שינה השנה?",
+   "options": [
+    {
+     "label": "אנשים",
+     "because": "אנשים מעסיקים אותך",
      "w": {
       "world": {
        "business": 3
       },
       "type": {
-       "system_builder": 2,
-       "leader": 2
+       "leader": 2,
+       "system_builder": 1
+      }
+     },
+     "world": "business",
+     "id": "a"
+    },
+    {
+     "label": "כסף",
+     "because": "הכסף מעסיק אותך",
+     "w": {
+      "world": {
+       "money": 3
+      },
+      "type": {
+       "numbers_person": 2
+      }
+     },
+     "pains": [
+      "financing"
+     ],
+     "world": "money",
+     "id": "b"
+    },
+    {
+     "label": "הראש שלי",
+     "because": "הראש שלך מעסיק אותך",
+     "w": {
+      "world": {
+       "head_field": 3
+      },
+      "type": {
+       "strong_mind": 2
+      }
+     },
+     "pains": [
+      "burnout"
+     ],
+     "world": "head_field",
+     "id": "c"
+    },
+    {
+     "label": "השוק",
+     "because": "השוק מעסיק אותך",
+     "w": {
+      "world": {
+       "sales": 3
+      },
+      "type": {
+       "closer": 1,
+       "field_fighter": 1
+      }
+     },
+     "world": "sales",
+     "id": "d"
+    }
+   ],
+   "selects_world": true
+  },
+  {
+   "id": "q2b",
+   "slot": 2,
+   "text": "אם היו נותנים לך יועץ לשעה, על מה?",
+   "options": [
+    {
+     "label": "הצוות",
+     "because": "אנשים מעסיקים אותך",
+     "w": {
+      "world": {
+       "business": 3
+      },
+      "type": {
+       "leader": 2,
+       "system_builder": 1
+      }
+     },
+     "world": "business",
+     "id": "a"
+    },
+    {
+     "label": "המספרים",
+     "because": "הכסף מעסיק אותך",
+     "w": {
+      "world": {
+       "money": 3
+      },
+      "type": {
+       "numbers_person": 2
+      }
+     },
+     "pains": [
+      "financing"
+     ],
+     "world": "money",
+     "id": "b"
+    },
+    {
+     "label": "אני",
+     "because": "הראש שלך מעסיק אותך",
+     "w": {
+      "world": {
+       "head_field": 3
+      },
+      "type": {
+       "strong_mind": 2
+      }
+     },
+     "pains": [
+      "burnout"
+     ],
+     "world": "head_field",
+     "id": "c"
+    },
+    {
+     "label": "הלקוחות",
+     "because": "השוק מעסיק אותך",
+     "w": {
+      "world": {
+       "sales": 3
+      },
+      "type": {
+       "closer": 1,
+       "field_fighter": 1
+      }
+     },
+     "world": "sales",
+     "id": "d"
+    }
+   ],
+   "selects_world": true
+  },
+  {
+   "id": "q2c",
+   "slot": 2,
+   "text": "מה הכי מלחיץ אותך בסוף חודש?",
+   "options": [
+    {
+     "label": "סוכן שלא סוגר",
+     "because": "אנשים מעסיקים אותך",
+     "w": {
+      "world": {
+       "business": 3
+      },
+      "type": {
+       "leader": 2,
+       "system_builder": 1
+      }
+     },
+     "world": "business",
+     "id": "a"
+    },
+    {
+     "label": "בנק שלא מאשר",
+     "because": "הכסף מעסיק אותך",
+     "w": {
+      "world": {
+       "money": 3
+      },
+      "type": {
+       "numbers_person": 2
+      }
+     },
+     "pains": [
+      "financing"
+     ],
+     "world": "money",
+     "id": "b"
+    },
+    {
+     "label": "אני, שלא עוצר",
+     "because": "הראש שלך מעסיק אותך",
+     "w": {
+      "world": {
+       "head_field": 3
+      },
+      "type": {
+       "strong_mind": 2
+      }
+     },
+     "pains": [
+      "burnout"
+     ],
+     "world": "head_field",
+     "id": "c"
+    },
+    {
+     "label": "לקוח שלא חוזר",
+     "because": "השוק מעסיק אותך",
+     "w": {
+      "world": {
+       "sales": 3
+      },
+      "type": {
+       "closer": 1,
+       "field_fighter": 1
+      }
+     },
+     "world": "sales",
+     "id": "d"
+    }
+   ],
+   "selects_world": true
+  },
+  {
+   "id": "q3_business",
+   "slot": 3,
+   "text": "התקרה שלך:",
+   "options": [
+    {
+     "label": "הכול עובר דרכי",
+     "because": "הכול עובר דרכך",
+     "w": {
+      "type": {
+       "system_builder": 3
       }
      },
      "pains": [
       "all_on_me"
-     ]
+     ],
+     "id": "a"
+    },
+    {
+     "label": "הצוות לא זז",
+     "because": "הצוות לא זז",
+     "w": {
+      "type": {
+       "leader": 3
+      }
+     },
+     "pains": [
+      "team_stuck"
+     ],
+     "id": "b"
+    },
+    {
+     "label": "הצלחתי, ומשהו נתקע",
+     "because": "הצלחת ומשהו נתקע",
+     "w": {
+      "type": {
+       "strong_mind": 2,
+       "leader": 1
+      },
+      "stage": {
+       "veteran_leap": 1
+      }
+     },
+     "pains": [
+      "post_success"
+     ],
+     "id": "c"
+    },
+    {
+     "label": "לא בטוח שאני רוצה לגדול",
+     "because": "אתה לא בטוח שאתה רוצה לגדול",
+     "w": {
+      "type": {
+       "strong_mind": 2,
+       "leader": 1
+      }
+     },
+     "pains": [
+      "post_success",
+      "life_price"
+     ],
+     "id": "d"
     }
-   ]
+   ],
+   "world": "business"
   },
   {
-   "id": "q4_head",
-   "world": "head_field",
-   "text": "כשלקוח אומר \"לא\", מה קורה?",
+   "id": "q4_business",
+   "slot": 4,
+   "text": "כשמישהו טוב עוזב:",
    "options": [
     {
-     "id": "a",
-     "label": "ממשיך לפעולה הבאה מיד",
-     "because": "\"לא\" לא עוצר אותך",
+     "label": "לוקח אישית",
+     "because": "אתה לוקח עזיבות אישית",
+     "w": {
+      "type": {
+       "strong_mind": 3
+      }
+     },
+     "pains": [
+      "rejection_stings"
+     ],
+     "id": "a"
+    },
+    {
+     "label": "מגייס למחרת",
+     "because": "אתה מגייס למחרת",
+     "w": {
+      "type": {
+       "system_builder": 3
+      }
+     },
+     "pains": [
+      "team_stuck"
+     ],
+     "id": "b"
+    },
+    {
+     "label": "שואל מה פספסתי",
+     "because": "אתה שואל מה פספסת",
+     "w": {
+      "type": {
+       "leader": 3
+      }
+     },
+     "pains": [
+      "team_stuck"
+     ],
+     "id": "c"
+    },
+    {
+     "label": "משתחרר ממנו בשקט",
+     "because": "אתה משתחרר בשקט",
+     "w": {
+      "type": {
+       "leader": 2
+      },
+      "tone": {
+       "direct_tough": 2
+      }
+     },
+     "id": "d"
+    }
+   ],
+   "world": "business"
+  },
+  {
+   "id": "q3_money",
+   "slot": 3,
+   "text": "עסקה שנפלה על מימון:",
+   "options": [
+    {
+     "label": "כואב, כל פעם מחדש",
+     "because": "עסקה שנופלת על מימון כואבת לך",
+     "w": {
+      "type": {
+       "strong_mind": 2,
+       "numbers_person": 1
+      }
+     },
+     "pains": [
+      "financing"
+     ],
+     "id": "a"
+    },
+    {
+     "label": "כבר יש לי שיטה",
+     "because": "יש לך שיטה למימון",
+     "w": {
+      "type": {
+       "numbers_person": 3,
+       "system_builder": 1
+      }
+     },
+     "pains": [
+      "financing"
+     ],
+     "id": "b"
+    },
+    {
+     "label": "זה לא הצד שלי",
+     "because": "המימון הוא לא הצד שלך",
+     "w": {
+      "type": {
+       "leader": 2,
+       "numbers_person": 1
+      }
+     },
+     "pains": [
+      "financing"
+     ],
+     "guest": "bank_or_advisor",
+     "id": "c"
+    },
+    {
+     "label": "מה זה \"נפלה\"",
+     "because": "אצלך עסקאות לא נופלות",
+     "w": {
+      "type": {
+       "closer": 2,
+       "numbers_person": 1
+      },
+      "tone": {
+       "light_funny": 2
+      }
+     },
+     "pains": [
+      "financing"
+     ],
+     "id": "d"
+    }
+   ],
+   "world": "money"
+  },
+  {
+   "id": "q4_money",
+   "slot": 4,
+   "text": "המספרים אצלך:",
+   "options": [
+    {
+     "label": "בראש",
+     "because": "המספרים אצלך בראש",
+     "w": {
+      "type": {
+       "closer": 2
+      },
+      "style": {
+       "personal_story": 1
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "באקסל",
+     "because": "המספרים אצלך באקסל",
+     "w": {
+      "type": {
+       "system_builder": 2,
+       "numbers_person": 2
+      },
+      "style": {
+       "numbers": 2
+      }
+     },
+     "id": "b"
+    },
+    {
+     "label": "אצל רואה החשבון",
+     "because": "המספרים אצל רואה החשבון",
+     "w": {
+      "type": {
+       "leader": 2
+      },
+      "style": {
+       "tools": 1
+      }
+     },
+     "id": "c"
+    },
+    {
+     "label": "איזה מספרים",
+     "because": "מספרים זה לא הסיפור שלך",
      "w": {
       "type": {
        "field_fighter": 2
       },
-      "style": {
-       "tools": 1
+      "tone": {
+       "light_funny": 2
+      }
+     },
+     "id": "d"
+    }
+   ],
+   "world": "money"
+  },
+  {
+   "id": "q3_head",
+   "slot": 3,
+   "text": "אחרי \"לא\" גדול:",
+   "options": [
+    {
+     "label": "ממשיך לפעולה הבאה",
+     "because": "\"לא\" לא עוצר אותך",
+     "w": {
+      "type": {
+       "field_fighter": 3
       },
       "tone": {
        "direct_tough": 1
@@ -250,10 +736,10 @@
      },
      "pains": [
       "field_presence"
-     ]
+     ],
+     "id": "a"
     },
     {
-     "id": "b",
      "label": "זה נשאר איתי",
      "because": "ה\"לא\" נשאר איתך",
      "w": {
@@ -263,88 +749,110 @@
      },
      "pains": [
       "rejection_stings"
-     ]
+     ],
+     "id": "b"
     },
     {
-     "id": "c",
-     "label": "מתחיל להימנע מהשיחה הבאה",
-     "because": "השיחה הבאה נהיית קשה",
+     "label": "נעלם ליומיים",
+     "because": "אתה צריך יומיים אחרי \"לא\"",
      "w": {
       "type": {
        "strong_mind": 2
-      },
-      "style": {
-       "personal_story": 1
-      },
-      "tone": {
-       "inspiring": 1
       }
      },
      "pains": [
       "rejection_stings",
       "burnout"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "q5_head",
-   "world": "head_field",
-   "text": "איפה אתה מביא תוצאות?",
-   "options": [
-    {
-     "id": "a",
-     "label": "בשטח, דלת לדלת",
-     "because": "אתה איש שטח",
-     "w": {
-      "type": {
-       "field_fighter": 3
-      }
-     },
-     "pains": [
-      "field_presence"
-     ]
+     ],
+     "id": "c"
     },
     {
-     "id": "b",
-     "label": "בטלפון ובפגישות",
-     "because": "הטלפון והפגישות הם המגרש שלך",
+     "label": "הופך את זה לסיפור",
+     "because": "אתה הופך \"לא\" לסיפור",
      "w": {
       "type": {
-       "closer": 2
+       "leader": 2
       },
       "style": {
-       "live_demo": 1
+       "personal_story": 2
       }
-     }
-    },
+     },
+     "guest": "founder_or_exec",
+     "id": "d"
+    }
+   ],
+   "world": "head_field"
+  },
+  {
+   "id": "q4_head",
+   "slot": 4,
+   "text": "מה נגמר לך קודם:",
+   "options": [
     {
-     "id": "c",
-     "label": "עדיין מחפש את הדרך שלי",
-     "because": "אתה עוד מחפש את הדרך שלך",
+     "label": "הסבלנות",
+     "because": "הסבלנות נגמרת לך קודם",
      "w": {
-      "stage": {
-       "starter": 1
+      "tone": {
+       "direct_tough": 2
       },
       "type": {
-       "system_builder": 1
+       "closer": 1
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "האנרגיה",
+     "because": "האנרגיה נגמרת לך קודם",
+     "w": {
+      "type": {
+       "strong_mind": 2
       }
      },
      "pains": [
-      "career_entry",
-      "no_system"
-     ]
+      "burnout"
+     ],
+     "id": "b"
+    },
+    {
+     "label": "הזמן",
+     "because": "הזמן נגמר לך קודם",
+     "w": {
+      "type": {
+       "system_builder": 2
+      }
+     },
+     "pains": [
+      "all_on_me"
+     ],
+     "id": "c"
+    },
+    {
+     "label": "הרעיונות",
+     "because": "הרעיונות נגמרים לך קודם",
+     "w": {
+      "tone": {
+       "inspiring": 2
+      },
+      "type": {
+       "leader": 1
+      }
+     },
+     "pains": [
+      "post_success"
+     ],
+     "id": "d"
     }
-   ]
+   ],
+   "world": "head_field"
   },
   {
-   "id": "q4_sales",
-   "world": "sales",
-   "text": "ההתנגדות שהכי מוציאה אותך מאיזון?",
+   "id": "q3_sales",
+   "slot": 3,
+   "text": "הלקוח שהכי מוציא אותך מאיזון:",
    "options": [
     {
-     "id": "a",
-     "label": "\"אני לא נותן בלעדיות\"",
+     "label": "זה שלא נותן בלעדיות",
      "because": "הבלעדיות היא הקרב שלך",
      "w": {
       "type": {
@@ -353,11 +861,11 @@
      },
      "pains": [
       "exclusivity_objection"
-     ]
+     ],
+     "id": "a"
     },
     {
-     "id": "b",
-     "label": "\"2% זה יותר מדי\"",
+     "label": "זה שמתמקח על העמלה",
      "because": "העמלה היא הקרב שלך",
      "w": {
       "type": {
@@ -366,12 +874,12 @@
      },
      "pains": [
       "fee_objection"
-     ]
+     ],
+     "id": "b"
     },
     {
-     "id": "c",
-     "label": "\"המחיר שלי לא ריאלי? אתה טועה\"",
-     "because": "מוכרים עם מחיר לא ריאלי מתישים אותך",
+     "label": "זה שיודע יותר טוב ממך",
+     "because": "הלקוח שיודע יותר טוב מתיש אותך",
      "w": {
       "type": {
        "closer": 1,
@@ -380,12 +888,12 @@
      },
      "pains": [
       "unrealistic_price"
-     ]
+     ],
+     "id": "c"
     },
     {
-     "id": "d",
-     "label": "קונה שנעלם אחרי הסיור",
-     "because": "קונים שנעלמים מתישים אותך",
+     "label": "זה שנעלם",
+     "because": "לקוחות שנעלמים מתישים אותך",
      "w": {
       "type": {
        "closer": 1,
@@ -394,420 +902,752 @@
      },
      "pains": [
       "buyer_filtering"
-     ]
+     ],
+     "id": "d"
     }
-   ]
+   ],
+   "world": "sales"
   },
   {
-   "id": "q5_sales",
-   "world": "sales",
-   "text": "איך אתה לומד מכירה?",
+   "id": "q4_sales",
+   "slot": 4,
+   "text": "איפה אתה מנצח:",
    "options": [
     {
-     "id": "a",
-     "label": "לשמוע סימולציה חיה, מילה במילה",
-     "because": "אתה רוצה לשמוע את זה מילה במילה",
+     "label": "בשטח, ברגליים",
+     "because": "אתה מנצח ברגליים",
      "w": {
-      "style": {
-       "live_demo": 3
+      "type": {
+       "field_fighter": 3
       }
-     }
+     },
+     "pains": [
+      "field_presence"
+     ],
+     "id": "a"
     },
     {
-     "id": "b",
-     "label": "להבין את הפסיכולוגיה מאחורי",
-     "because": "אתה רוצה להבין את הפסיכולוגיה",
-     "hh": -1,
+     "label": "בטלפון",
+     "because": "אתה מנצח בטלפון",
      "w": {
-      "style": {
-       "personal_story": 1
-      },
       "type": {
-       "strong_mind": 2
+       "closer": 2
       }
-     }
+     },
+     "id": "b"
     },
     {
-     "id": "c",
-     "label": "שיטה, משפך ומספרים",
-     "because": "אתה רוצה שיטה ומספרים",
+     "label": "בשולחן, בסגירה",
+     "because": "אתה מנצח בסגירה",
      "w": {
-      "style": {
-       "tools": 2,
-       "numbers": 1
+      "type": {
+       "closer": 3
       },
-      "type": {
-       "system_builder": 2
+      "style": {
+       "live_demo": 1
       }
-     }
-    }
-   ]
-  },
-  {
-   "id": "q4_money",
-   "world": "money",
-   "text": "הסיטואציה שהכי מלחיצה?",
-   "options": [
+     },
+     "id": "c"
+    },
     {
-     "id": "a",
-     "label": "לקוח עם הון עצמי גבולי",
-     "because": "הון עצמי גבולי מלחיץ אותך",
+     "label": "במספרים",
+     "because": "אתה מנצח במספרים",
      "w": {
       "type": {
-       "numbers_person": 2
+       "numbers_person": 3
       },
       "style": {
        "numbers": 1
       }
      },
-     "pains": [
-      "financing"
-     ]
-    },
-    {
-     "id": "b",
-     "label": "הבנק דוחה, ולא ברור למה",
-     "because": "הבנק דוחה ולא ברור למה",
-     "w": {
-      "type": {
-       "numbers_person": 2
-      },
-      "style": {
-       "tools": 1
-      }
-     },
-     "pains": [
-      "financing"
-     ]
-    },
-    {
-     "id": "c",
-     "label": "רכישה מקבלן / מחיר למשתכן",
-     "because": "קבלן ומחיר למשתכן מלחיצים אותך",
-     "w": {
-      "type": {
-       "numbers_person": 2
-      }
-     },
-     "pains": [
-      "financing",
-      "buyer_filtering"
-     ]
-    },
-    {
-     "id": "d",
-     "label": "תיק מורכב (עצמאי, ירושה, חו\"ל)",
-     "because": "התיקים המורכבים אצלך",
-     "w": {
-      "type": {
-       "numbers_person": 2
-      },
-      "style": {
-       "numbers": 2
-      }
-     },
-     "pains": [
-      "financing"
-     ]
+     "id": "d"
     }
-   ]
+   ],
+   "world": "sales"
   },
   {
-   "id": "q5_money",
-   "world": "money",
-   "text": "מה אתה רוצה לקחת?",
+   "id": "q5a",
+   "slot": 5,
+   "text": "מה נשאר איתך אחרי הרצאה?",
    "options": [
     {
-     "id": "a",
-     "label": "כללי אצבע ומספרים",
-     "because": "אתה רוצה כללי אצבע",
-     "hh": 2,
-     "w": {
-      "style": {
-       "numbers": 3,
-       "tools": 1
-      }
-     }
-    },
-    {
-     "id": "b",
-     "label": "סיפור של מי שעשה את המעבר",
-     "because": "אתה רוצה סיפור של מי שעשה את המעבר",
-     "w": {
-      "style": {
-       "personal_story": 3
-      },
-      "type": {
-       "strong_mind": 1
-      }
-     },
-     "pains": [
-      "career_entry"
-     ]
-    },
-    {
-     "id": "c",
-     "label": "איך עובדים עם יועץ משכנתאות בלי לאבד את הלקוח",
-     "because": "אתה רוצה לעבוד נכון עם יועץ",
-     "guest": "bank_or_advisor",
-     "w": {
-      "style": {
-       "tools": 2
-      },
-      "type": {
-       "numbers_person": 1
-      }
-     }
-    }
-   ]
-  },
-  {
-   "id": "q4_business",
-   "world": "business",
-   "text": "מה התקרה שלך?",
-   "options": [
-    {
-     "id": "a",
-     "label": "הכול תלוי בי, אין זמן",
-     "because": "הכול תלוי בך",
-     "w": {
-      "type": {
-       "system_builder": 2
-      }
-     },
-     "pains": [
-      "all_on_me"
-     ]
-    },
-    {
-     "id": "b",
-     "label": "יש צוות, והוא לא זז",
-     "because": "הצוות לא זז",
-     "w": {
-      "type": {
-       "leader": 3
-      }
-     },
-     "pains": [
-      "team_stuck"
-     ]
-    },
-    {
-     "id": "c",
-     "label": "הצלחתי, ומשהו נתקע",
-     "because": "הצלחת ומשהו נתקע",
-     "w": {
-      "type": {
-       "leader": 1,
-       "strong_mind": 2
-      },
-      "stage": {
-       "veteran_leap": 1
-      }
-     },
-     "pains": [
-      "post_success"
-     ]
-    },
-    {
-     "id": "d",
-     "label": "מתלבט אם לגייס בכלל",
-     "because": "אתה מתלבט אם לגייס",
-     "w": {
-      "type": {
-       "system_builder": 1,
-       "leader": 1
-      }
-     },
-     "pains": [
-      "all_on_me",
-      "team_stuck"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "q5_business",
-   "world": "business",
-   "text": "מה קודם?",
-   "options": [
-    {
-     "id": "a",
-     "label": "מערכות ומספרים",
-     "because": "מערכות קודם",
-     "hh": 1,
-     "w": {
-      "type": {
-       "system_builder": 3
-      },
-      "style": {
-       "tools": 1,
-       "numbers": 1
-      }
-     }
-    },
-    {
-     "id": "b",
-     "label": "אנשים ומנהיגות",
-     "because": "אנשים קודם",
-     "w": {
-      "type": {
-       "leader": 3
-      },
-      "style": {
-       "personal_story": 1
-      }
-     }
-    },
-    {
-     "id": "c",
-     "label": "הראש שלי (אגו, שחיקה, ה\"למה\")",
-     "because": "הראש שלך קודם",
-     "hh": -2,
-     "w": {
-      "type": {
-       "strong_mind": 2,
-       "leader": 1
-      }
-     },
-     "pains": [
-      "post_success",
-      "burnout"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "q6",
-   "text": "איך אתה אוהב לקבל את זה?",
-   "lead": "{q1}, אז",
-   "options": [
-    {
-     "id": "a",
-     "label": "סיפור של בן אדם",
-     "because": "אתה אוהב סיפור של בן אדם",
+     "label": "הסיפור",
+     "because": "אתה לומד מסיפור",
      "w": {
       "style": {
        "personal_story": 3
       }
-     }
+     },
+     "id": "a"
     },
     {
-     "id": "b",
-     "label": "כלים ליישום מחר",
-     "because": "אתה רוצה כלים ליישום",
-     "hh": 1,
+     "label": "השיטה",
+     "because": "אתה רוצה שיטה",
      "w": {
       "style": {
        "tools": 3
       }
-     }
+     },
+     "hh": 1,
+     "id": "b"
     },
     {
-     "id": "c",
-     "label": "הדגמה חיה",
-     "because": "אתה רוצה לראות את זה חי",
+     "label": "הדוגמה החיה",
+     "because": "אתה רוצה לשמוע איך זה נשמע באמת",
      "w": {
       "style": {
        "live_demo": 3
       }
-     }
+     },
+     "id": "c"
     },
     {
-     "id": "d",
-     "label": "מספרים ונתונים",
+     "label": "המספר",
      "because": "אתה רוצה מספרים",
      "w": {
       "style": {
        "numbers": 3
       }
-     }
+     },
+     "id": "d"
     }
    ]
   },
   {
-   "id": "q7",
-   "text": "באיזה טון?",
+   "id": "q5b",
+   "slot": 5,
+   "text": "פרק פודקאסט טוב זה:",
    "options": [
     {
-     "id": "a",
+     "label": "בן אדם שנפתח",
+     "because": "אתה לומד מסיפור",
+     "w": {
+      "style": {
+       "personal_story": 3
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "משהו שאפשר לעשות מחר",
+     "because": "אתה רוצה שיטה",
+     "w": {
+      "style": {
+       "tools": 3
+      }
+     },
+     "hh": 1,
+     "id": "b"
+    },
+    {
+     "label": "לשמוע איך זה נשמע באמת",
+     "because": "אתה רוצה לשמוע איך זה נשמע באמת",
+     "w": {
+      "style": {
+       "live_demo": 3
+      }
+     },
+     "id": "c"
+    },
+    {
+     "label": "נתונים על השולחן",
+     "because": "אתה רוצה מספרים",
+     "w": {
+      "style": {
+       "numbers": 3
+      }
+     },
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q5c",
+   "slot": 5,
+   "text": "כשמישהו מספר לך על עסקה:",
+   "options": [
+    {
+     "label": "מה שקרה לו בדרך",
+     "because": "אתה לומד מסיפור",
+     "w": {
+      "style": {
+       "personal_story": 3
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "המהלך",
+     "because": "אתה רוצה שיטה",
+     "w": {
+      "style": {
+       "tools": 3
+      }
+     },
+     "hh": 1,
+     "id": "b"
+    },
+    {
+     "label": "השיחה עצמה",
+     "because": "אתה רוצה לשמוע איך זה נשמע באמת",
+     "w": {
+      "style": {
+       "live_demo": 3
+      }
+     },
+     "id": "c"
+    },
+    {
+     "label": "המספרים",
+     "because": "אתה רוצה מספרים",
+     "w": {
+      "style": {
+       "numbers": 3
+      }
+     },
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q6a",
+   "slot": 6,
+   "text": "איך אתה אוהב שמדברים איתך?",
+   "options": [
+    {
      "label": "תרים לי את הראש",
      "because": "אתה רוצה שירימו לך את הראש",
      "w": {
       "tone": {
        "inspiring": 3
       }
-     }
+     },
+     "id": "a"
     },
     {
-     "id": "b",
      "label": "ישר, בלי ליטופים",
      "because": "אתה רוצה את זה ישר",
      "w": {
       "tone": {
        "direct_tough": 3
       }
-     }
+     },
+     "id": "b"
     },
     {
-     "id": "c",
-     "label": "קליל ומצחיק",
-     "because": "אתה רוצה את זה קליל",
+     "label": "עם הומור, בבקשה",
+     "because": "אתה רוצה את זה עם הומור",
      "w": {
       "tone": {
        "light_funny": 3
       }
-     }
+     },
+     "id": "c"
     }
    ]
   },
   {
-   "id": "q8",
-   "text": "מי היית רוצה שיאמן אותך שעה?",
+   "id": "q6b",
+   "slot": 6,
+   "text": "המאמן שהיית בוחר:",
    "options": [
     {
-     "id": "a",
-     "label": "אלוף ספורט",
-     "because": "היית לוקח שעה עם אלוף ספורט",
-     "guest": "sport_champion",
+     "label": "זה שמאמין בך יותר ממך",
+     "because": "אתה רוצה שירימו לך את הראש",
      "w": {
-      "type": {
-       "strong_mind": 1
+      "tone": {
+       "inspiring": 3
       }
-     }
+     },
+     "id": "a"
     },
     {
-     "id": "b",
-     "label": "מייסד הרשת / בכיר",
-     "because": "היית לוקח שעה עם מייסד",
-     "guest": "founder_or_exec",
+     "label": "זה שצועק את האמת",
+     "because": "אתה רוצה את זה ישר",
      "w": {
-      "type": {
-       "leader": 1
+      "tone": {
+       "direct_tough": 3
       }
-     }
+     },
+     "id": "b"
     },
     {
-     "id": "c",
-     "label": "הסוכן מספר 1 בעיר",
-     "because": "היית לוקח שעה עם הסוכן מספר 1",
-     "guest": "top_agent",
+     "label": "זה שמצחיק אותך עד שאתה עובד",
+     "because": "אתה רוצה את זה עם הומור",
+     "w": {
+      "tone": {
+       "light_funny": 3
+      }
+     },
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "q6c",
+   "slot": 6,
+   "text": "השיחה הכי טובה שהייתה לך השנה הייתה:",
+   "options": [
+    {
+     "label": "מרגשת",
+     "because": "אתה רוצה שירימו לך את הראש",
+     "w": {
+      "tone": {
+       "inspiring": 3
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "כואבת",
+     "because": "אתה רוצה את זה ישר",
+     "w": {
+      "tone": {
+       "direct_tough": 3
+      }
+     },
+     "id": "b"
+    },
+    {
+     "label": "מצחיקה",
+     "because": "אתה רוצה את זה עם הומור",
+     "w": {
+      "tone": {
+       "light_funny": 3
+      }
+     },
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "q7a",
+   "slot": 7,
+   "text": "יום ראשון, שמונה בבוקר, אתה:",
+   "options": [
+    {
+     "label": "כבר בשטח",
+     "because": "ביום ראשון בבוקר אתה בשטח",
      "w": {
       "type": {
+       "field_fighter": 3
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "באקסל",
+     "because": "ביום ראשון בבוקר אתה באקסל",
+     "w": {
+      "type": {
+       "numbers_person": 2,
+       "system_builder": 2
+      }
+     },
+     "id": "b"
+    },
+    {
+     "label": "בפגישת צוות",
+     "because": "ביום ראשון בבוקר אתה עם הצוות",
+     "w": {
+      "type": {
+       "leader": 3
+      }
+     },
+     "id": "c"
+    },
+    {
+     "label": "עוד בקפה",
+     "because": "ביום ראשון בבוקר אתה עוד בקפה",
+     "w": {
+      "tone": {
+       "light_funny": 2
+      }
+     },
+     "pains": [
+      "post_success"
+     ],
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q7b",
+   "slot": 7,
+   "text": "המכונית שלך אומרת עליך:",
+   "options": [
+    {
+     "label": "עובד קשה",
+     "because": "אתה עובד קשה",
+     "w": {
+      "type": {
+       "field_fighter": 2,
+       "closer": 1
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "מחשב כל שקל",
+     "because": "אתה מחשב כל שקל",
+     "w": {
+      "type": {
+       "numbers_person": 3
+      }
+     },
+     "id": "b"
+    },
+    {
+     "label": "הגעתי",
+     "because": "הגעת",
+     "w": {
+      "type": {
+       "leader": 2
+      }
+     },
+     "pains": [
+      "post_success"
+     ],
+     "id": "c"
+    },
+    {
+     "label": "לא יודע, היא של החברה",
+     "because": "המכונית של החברה",
+     "w": {
+      "type": {
+       "system_builder": 2
+      },
+      "tone": {
+       "light_funny": 2
+      }
+     },
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q7c",
+   "slot": 7,
+   "text": "מה עושים עם הבונוס?",
+   "options": [
+    {
+     "label": "משקיע בחזרה בעסק",
+     "because": "אתה משקיע בחזרה בעסק",
+     "w": {
+      "type": {
+       "system_builder": 2,
+       "leader": 2
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "חוסך",
+     "because": "אתה חוסך",
+     "w": {
+      "type": {
+       "numbers_person": 3
+      }
+     },
+     "id": "b"
+    },
+    {
+     "label": "חופשה עם המשפחה",
+     "because": "הבונוס הולך למשפחה",
+     "w": {
+      "style": {
+       "personal_story": 2
+      }
+     },
+     "pains": [
+      "life_price"
+     ],
+     "id": "c"
+    },
+    {
+     "label": "איזה בונוס",
+     "because": "איזה בונוס",
+     "w": {
+      "type": {
+       "field_fighter": 2
+      },
+      "tone": {
+       "light_funny": 2
+      }
+     },
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q7d",
+   "slot": 7,
+   "text": "מה היית שם על הקיר במשרד?",
+   "options": [
+    {
+     "label": "\"הכול תלוי בך\"",
+     "because": "אצלך הכול תלוי בך",
+     "w": {
+      "type": {
+       "field_fighter": 2
+      },
+      "tone": {
+       "direct_tough": 2
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "\"המספרים לא משקרים\"",
+     "because": "המספרים לא משקרים",
+     "w": {
+      "type": {
+       "numbers_person": 3
+      }
+     },
+     "id": "b"
+    },
+    {
+     "label": "\"כל עסקה מתחילה ב'לא'\"",
+     "because": "כל עסקה מתחילה ב\"לא\"",
+     "w": {
+      "type": {
+       "closer": 2,
+       "strong_mind": 2
+      }
+     },
+     "pains": [
+      "rejection_stings"
+     ],
+     "id": "c"
+    },
+    {
+     "label": "\"כאן עובדים, לא מתלוננים\"",
+     "because": "כאן עובדים, לא מתלוננים",
+     "w": {
+      "type": {
+       "leader": 2
+      },
+      "tone": {
+       "direct_tough": 2
+      }
+     },
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q7e",
+   "slot": 7,
+   "text": "מתי אתה במיטבך?",
+   "options": [
+    {
+     "label": "כשקשה",
+     "because": "אתה במיטבך כשקשה",
+     "w": {
+      "type": {
+       "strong_mind": 2,
+       "field_fighter": 2
+      }
+     },
+     "id": "a"
+    },
+    {
+     "label": "כשיש תוכנית",
+     "because": "אתה במיטבך עם תוכנית",
+     "w": {
+      "type": {
+       "system_builder": 3
+      }
+     },
+     "id": "b"
+    },
+    {
+     "label": "כשיש קהל",
+     "because": "אתה במיטבך מול קהל",
+     "w": {
+      "type": {
+       "leader": 2
+      }
+     },
+     "pains": [
+      "stage_and_brand"
+     ],
+     "id": "c"
+    },
+    {
+     "label": "כשהמספרים מסתדרים",
+     "because": "אתה במיטבך כשהמספרים מסתדרים",
+     "w": {
+      "type": {
+       "numbers_person": 3
+      }
+     },
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q8a",
+   "slot": 8,
+   "text": "אם היה לך עוד שעה ביום:",
+   "options": [
+    {
+     "label": "עוד פגישה",
+     "because": "היית לוקח עוד פגישה",
+     "w": {
+      "type": {
+       "closer": 2,
        "field_fighter": 1
       }
-     }
+     },
+     "id": "a"
     },
     {
-     "id": "d",
-     "label": "מי שהיה בתוך הבנק",
-     "because": "היית לוקח שעה עם מי שהיה בתוך הבנק",
-     "guest": "bank_or_advisor",
+     "label": "עוד סוכן",
+     "because": "היית מגייס עוד סוכן",
      "w": {
       "type": {
-       "numbers_person": 1
+       "leader": 3
       }
-     }
+     },
+     "id": "b"
+    },
+    {
+     "label": "עוד שעת שינה",
+     "because": "היית לוקח עוד שעת שינה",
+     "w": {
+      "type": {
+       "strong_mind": 2
+      }
+     },
+     "pains": [
+      "burnout"
+     ],
+     "id": "c"
+    },
+    {
+     "label": "עוד שעה עם הילדים",
+     "because": "היית לוקח שעה עם הילדים",
+     "w": {
+      "style": {
+       "personal_story": 2
+      }
+     },
+     "pains": [
+      "life_price"
+     ],
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q8b",
+   "slot": 8,
+   "text": "מה תרצה שיגידו עליך בכנס הבא?",
+   "options": [
+    {
+     "label": "מכר הכי הרבה",
+     "because": "אתה רוצה למכור הכי הרבה",
+     "w": {
+      "type": {
+       "closer": 2,
+       "field_fighter": 2
+      }
+     },
+     "guest": "top_agent",
+     "id": "a"
+    },
+    {
+     "label": "בנה את הצוות הכי טוב",
+     "because": "אתה רוצה לבנות את הצוות הכי טוב",
+     "w": {
+      "type": {
+       "leader": 3
+      }
+     },
+     "guest": "founder_or_exec",
+     "id": "b"
+    },
+    {
+     "label": "נשאר אותו בן אדם",
+     "because": "אתה רוצה להישאר אותו בן אדם",
+     "w": {
+      "type": {
+       "strong_mind": 2
+      }
+     },
+     "pains": [
+      "post_success"
+     ],
+     "id": "c"
+    },
+    {
+     "label": "יודע בדיוק מה הוא עושה",
+     "because": "אתה רוצה לדעת בדיוק מה אתה עושה",
+     "w": {
+      "type": {
+       "system_builder": 2,
+       "numbers_person": 2
+      }
+     },
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "q8c",
+   "slot": 8,
+   "text": "עוד חמש שנים:",
+   "options": [
+    {
+     "label": "יותר משרדים",
+     "because": "אתה הולך על יותר משרדים",
+     "w": {
+      "type": {
+       "leader": 2,
+       "system_builder": 2
+      }
+     },
+     "guest": "founder_or_exec",
+     "id": "a"
+    },
+    {
+     "label": "אותו משרד, פי שניים",
+     "because": "אותו משרד, פי שניים",
+     "w": {
+      "type": {
+       "system_builder": 2,
+       "closer": 1
+      }
+     },
+     "id": "b"
+    },
+    {
+     "label": "משהו אחר לגמרי",
+     "because": "אתה חושב על משהו אחר לגמרי",
+     "w": {
+      "type": {
+       "strong_mind": 2
+      }
+     },
+     "pains": [
+      "post_success"
+     ],
+     "id": "c"
+    },
+    {
+     "label": "חופשי",
+     "because": "אתה רוצה להיות חופשי",
+     "w": {
+      "tone": {
+       "light_funny": 1
+      }
+     },
+     "pains": [
+      "life_price"
+     ],
+     "id": "d"
     }
    ]
   }

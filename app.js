@@ -36,7 +36,14 @@
   // ---------- flow ----------
   function questionList() {
     const qs = state.quiz.questions;
-    return qs.filter((q) => !q.world || q.world === state.world);
+    if (state.quiz.meta.mode !== 'bank') return qs.filter((q) => !q.world || q.world === state.world);
+    // bank mode: one question per slot, chosen by the person's name — same name → same quiz; a room → many quizzes
+    const slots = [...new Set(qs.map((q) => q.slot))].sort((a, b) => a - b);
+    return slots.map((slot) => {
+      const cands = qs.filter((q) => q.slot === slot && (!q.world || q.world === state.world));
+      if (!cands.length) return null;
+      return cands[hash(state.name.trim().toLowerCase() + '|slot' + slot) % cands.length];
+    }).filter(Boolean);
   }
   function chosenOptions() { return state.answers.map((a) => a.option); }
   function show(id) {
@@ -98,7 +105,7 @@
   }
   function renderResult() {
     const chosen = chosenOptions();
-    state.seed = hash(state.name.trim().toLowerCase() + '|' + Math.floor(Date.now() / 3600000));
+    state.seed = hash(state.name.trim().toLowerCase());   // same person → same result; variety comes from the question bank
     const pool = rank(chosen).slice(0, state.quiz.calibration.pool_size || 3);
     state.pool = pool; state.pick = state.seed % pool.length;
     state.type = personType(chosen);
