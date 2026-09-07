@@ -1,0 +1,4049 @@
+[
+ {
+  "id": "remax_carmit_001",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 1,
+  "guest": "עידן ישר",
+  "title": "ממגרש הג'ודו אל עולם הנדל\"ן עם עידן ישר",
+  "guest_line": "סוכן רימקס אושן תל אביב, יליד דרום תל אביב, שבנה שם עסק מוביל דרך התמדה, שטח ופולו-אפ.",
+  "hook": "איך מוכרים ערך, בונים עסק ומשחררים שליטה בלי לאבד את המוניטין?",
+  "why": "אם אתה מרגיש שהכול יושב עליך, הפרק יעזור לך לשחרר שליטה, לבנות צוות ולא להתנצל על העמלה",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=0nGMjtVSmb8",
+   "spotify": "https://open.spotify.com/episode/3rzViWRq04Gfmt5RGqMxSt",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "מתווך טוב זה השקעה ולא הוצאה.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אין דבר כזה מקום שני.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אתה משמר אותו בקצב עלייה וזה כיף, זה סיפוק.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "Follow up זה א' ב' של מתווך נדל״ן.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "זה אולי העסקה אחת שהוא יעשה בכל החיים שלו.",
+    "speaker": "האורח"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 2,
+    "field_fighter": 3,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 1,
+    "system_builder": 2
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 2,
+    "starter": 1,
+    "veteran_leap": 3
+   },
+   "style": {
+    "live_demo": 2,
+    "numbers": 1,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 2,
+    "light_funny": 1
+   },
+   "hh": 1,
+   "world": {
+    "business": 2,
+    "head_field": 2,
+    "money": 0,
+    "sales": 3
+   },
+   "pains": [
+    "fee_objection",
+    "all_on_me",
+    "team_stuck",
+    "field_presence"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 23.47,
+   "views": 240
+  }
+ },
+ {
+  "id": "remax_carmit_002",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 2,
+  "guest": "אופיר אדרי",
+  "title": "בלעדיות היא לא חוזה – היא מחויבות עם אופיר אדרי",
+  "guest_line": "אופיר אדרי, סוכן ברימקס סול בפתח תקווה עשר שנים, חבר במועדון המיליון, שגם מלמד ומכשיר סוכנים חדשים במשרד.",
+  "hook": "בלעדיות היא לא חוזה - היא הבטחה. אופיר אדרי מדגים איך זה נשמע בשטח, מילה במילה.",
+  "why": "תשמע כאן מילה במילה איך לענות למוכר שטוען שימכור לבד, בלי להתחנן ובלי לוותר.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=IbREt84jdoY",
+   "spotify": "https://open.spotify.com/episode/0T5QM1KwSOTO0YziotCJVZ",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "את צריכה להאמין שאני יכול לעשות את זה יותר טוב ממך. אם זאת לא נקודת הפתיחה בינינו, אני לא רלוונטי לך בתהליך הזה.",
+    "speaker": "אופיר אדרי (האורח)"
+   },
+   {
+    "text": "אם את חושבת שהזמן שלי הוא בחינם, אז את טועה. הזמן שלי הוא יקר.",
+    "speaker": "אופיר אדרי (האורח)"
+   },
+   {
+    "text": "אני לא עובד בלי בלעדיות. זה האמונה שלי במתודה הזאת.",
+    "speaker": "אופיר אדרי (האורח)"
+   },
+   {
+    "text": "אני מעדיף להיות באנרגיה נכונה ולמקד את הטלפונים שלי לחצי שעה ביום, מאשר שלוש שעות לשבת עם אנרגיה של תשעה באב.",
+    "speaker": "אופיר אדרי (האורח)"
+   },
+   {
+    "text": "אם אנחנו לא נעשה את זה מתוך אהבה, אנחנו תמיד ניכנס למקום הזה של תסכול.",
+    "speaker": "אופיר אדרי (האורח)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 3,
+    "field_fighter": 2,
+    "leader": 0,
+    "numbers_person": 0,
+    "strong_mind": 1,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 2,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 3,
+    "numbers": 0,
+    "personal_story": 1,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 1,
+    "light_funny": 0
+   },
+   "hh": 2,
+   "world": {
+    "business": 0,
+    "head_field": 2,
+    "money": 0,
+    "sales": 3
+   },
+   "pains": [
+    "exclusivity_objection",
+    "fee_objection",
+    "unrealistic_price"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 19.26,
+   "views": 249
+  }
+ },
+ {
+  "id": "remax_carmit_003",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 3,
+  "guest": "יריב קרני",
+  "title": "למה להראות נכס לא רלוונטי? עם יריב קרני",
+  "guest_line": "יריב קרני, סוכן מרימקס בראש העין, שמדבר על ליווי קונים, מומחיות מקומית ובניית אמון לאורך זמן.",
+  "hook": "קונה לא צריך עוד סיור נכסים; הוא צריך מישהו שיעזור לו להבין מה באמת נכון לו.",
+  "why": "תלמד איך לברר צרכי קונים בטלפון, לחסוך סיורי סרק ולבנות אמון שהופך אותם ללקוחות שלך",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=9wOJ18ROuYM",
+   "spotify": "https://open.spotify.com/episode/7qAhF9VDM3JrS3gacDLBSi",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "אני לא חותר לפגישה על נכס לא רלוונטי.",
+    "speaker": "יריב קרני"
+   },
+   {
+    "text": "עבורם זו החלטה, זו לא עסקה.",
+    "speaker": "יריב קרני"
+   },
+   {
+    "text": "הנכס הזה לא מתאים לך.",
+    "speaker": "יריב קרני"
+   },
+   {
+    "text": "ככל שאני אתן שירות יותר טוב, בגובה העיניים, מאוד אינפורמטיבי, אני אנדב בעצמי מידע.",
+    "speaker": "יריב קרני"
+   },
+   {
+    "text": "אני לא רוצה גם כן שבן אדם יקנה נכס שלא מתאים לו.",
+    "speaker": "יריב קרני"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 3,
+    "field_fighter": 2,
+    "leader": 0,
+    "numbers_person": 1,
+    "strong_mind": 1,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 2,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 2,
+    "numbers": 1,
+    "personal_story": 2,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 1,
+    "light_funny": 2
+   },
+   "hh": 1,
+   "world": {
+    "business": 1,
+    "head_field": 2,
+    "money": 1,
+    "sales": 3
+   },
+   "pains": [
+    "buyer_filtering",
+    "no_system"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 16.9,
+   "views": 201
+  }
+ },
+ {
+  "id": "remax_carmit_004",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 4,
+  "guest": "אריאל כהן ליפשיץ",
+  "title": "לעולם לא מוריד רגל מהגז עם אריאל כהן ליפשיץ",
+  "guest_line": "מתווך מבאר שבע שמתמחה בשכונת רמות, עובד בשיטתיות, חי את השטח ולא מוותר על הערך שלו.",
+  "hook": "איך להפסיק לרדוף אחרי עסקאות ולהתחיל לנהל תהליך שמייצר אמון, גבולות ותוצאות.",
+  "why": "תלמד איך לסנן לקוחות לא בשלים, להגן על הזמן שלך ולעמוד על העמלה בלי להתנצל.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=Sk51FWcaps4",
+   "spotify": "https://open.spotify.com/episode/6NJs7qvOkN22XmK6wA3qIu",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "אנשים שלא חושבים שיש לזה ערך, אני לא אשכנע אותם.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אם לא תהיה מספיק חזק מנטאלית ולא תדע לעבוד על הדבר הזה, זה פשוט לא ילך.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "מתווך טוב נמדד בכמה הוא מוכר בשכונה, ולא רק בכמה העסקאות הוא עשה.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "לפני שאנחנו רצים לקנייה, חשוב שנבין ביחד מה היכולות שלנו.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אתה רוצה עסקה טובה או שאתה רוצה להעיף?",
+    "speaker": "האורח"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 2,
+    "field_fighter": 2,
+    "leader": 0,
+    "numbers_person": 1,
+    "strong_mind": 2,
+    "system_builder": 3
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 2,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 3,
+    "numbers": 2,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 3,
+    "inspiring": 1,
+    "light_funny": 1
+   },
+   "hh": 1,
+   "world": {
+    "business": 2,
+    "head_field": 2,
+    "money": 1,
+    "sales": 3
+   },
+   "pains": [
+    "buyer_filtering",
+    "fee_objection",
+    "unrealistic_price",
+    "no_system"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 19.02,
+   "views": 197
+  }
+ },
+ {
+  "id": "remax_carmit_005",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 5,
+  "guest": "מיכה פול",
+  "title": "עושים עלייה: מיכה פול שובר את חומות ירושלים",
+  "guest_line": "מתווך מירושלים (ארנונה, ארמון הנציב, טלפיות, בקעה) עם 4.5 שנים ברשת, ידוע בסגנון הצבעוני שלו ובעבודה מול קהילת האנגלוסקסים בעיר.",
+  "hook": "בלעדיות זה לא כבל שנועל אותך, זה סדר שפותח לך זמן.",
+  "why": "תקבל תסריטים מדויקים לעמידה מול התנגדויות על עמלה ובלעדיות, בלי להתגונן ובלי לוותר",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=X-dqOfnDPkE",
+   "spotify": "https://open.spotify.com/episode/7dD3qjl7fdI8fnDjjCqjPi",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "כמו שאני מתעקש על העמלה שלי, אני מתעקש שלך תהיה עסקה טובה. אני לא רוצה שאת תפסידי.",
+    "speaker": "מיכה פול"
+   },
+   {
+    "text": "את הבלעדיות הזאת, שכביכול את חושבת שזה... נועל אותך, זה בעצם פותח אותך.",
+    "speaker": "מיכה פול"
+   },
+   {
+    "text": "אנחנו לא רוצים שיש לך פה רכבת בבית... אני עושה לך סדר, הבלעדיות הזאת עושה לך סדר וזמן.",
+    "speaker": "מיכה פול"
+   },
+   {
+    "text": "אני רוצה שירות טוב ללקוחות שלי... אני רוצה שתדעי שיש לך יועץ משכנתאות טוב, עורך דין.",
+    "speaker": "מיכה פול"
+   },
+   {
+    "text": "שואבים, שואבים, ולא בהכרח יודעים מתי יצא המים, מתי הוא יתפרץ החוצה, אבל מתישהו זה יקרה.",
+    "speaker": "מיכה פול"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 3,
+    "field_fighter": 1,
+    "leader": 0,
+    "numbers_person": 0,
+    "strong_mind": 1,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 1,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 3,
+    "numbers": 1,
+    "personal_story": 0,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 1,
+    "light_funny": 2
+   },
+   "hh": 2,
+   "world": {
+    "business": 0,
+    "head_field": 1,
+    "money": 1,
+    "sales": 3
+   },
+   "pains": [
+    "fee_objection",
+    "exclusivity_objection"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 16.13,
+   "views": 132
+  }
+ },
+ {
+  "id": "remax_carmit_006",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 6,
+  "guest": "אתי סוויסהֿ",
+  "title": "100% טוטאליות ועבודה מהנשמה עם אתי סוויסה",
+  "guest_line": "סוכנת נדל״ן ותיקה מרשת רימקס, שחיה מכירות, שירות, תחרות ומוניטין.",
+  "hook": "איך נכנסים לפגישת גיוס עם אש בעיניים, גם כשהמוכר כבר נכווה מסוכנים?",
+  "why": "כדי שתפסיק להתכווץ מול התנגדויות, תדבר בביטחון על העמלה שלך ותשלוט בשטח.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=JSNlWHW7LeI",
+   "spotify": "https://open.spotify.com/episode/5lrOYKMfghqX8mOQdnQ0Dt",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "מי שקובע את המחיר של הנכס זה לא אני ולא את, זה השוק",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אני לא קוסמת, אני מתחייבת עבורך לעשות את המקסימום",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אין דלת שנפתחה בכל בניין ברמת הנשיא שלא ראו את הפנים שלי",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אני עובדת מכאן, מהלב, מהנשמה",
+    "speaker": "האורח"
+   },
+   {
+    "text": "כל שקל הוא משמעותי עבורך, הוא משמעותי עבורי",
+    "speaker": "האורח"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 3,
+    "field_fighter": 3,
+    "leader": 0,
+    "numbers_person": 0,
+    "strong_mind": 2,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 2,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 3,
+    "numbers": 0,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 3,
+    "inspiring": 2,
+    "light_funny": 1
+   },
+   "hh": 1,
+   "world": {
+    "business": 0,
+    "head_field": 2,
+    "money": 0,
+    "sales": 3
+   },
+   "pains": [
+    "exclusivity_objection",
+    "fee_objection",
+    "unrealistic_price",
+    "field_presence"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 21.12,
+   "views": 230
+  }
+ },
+ {
+  "id": "remax_carmit_007",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 7,
+  "guest": "קנדו טדסה",
+  "title": "לא מתפשר על ה־2%, נותן 100% מעצמו עם קנדו טדסה",
+  "guest_line": "מתווך מקריית אתא שמנהל עשרות נכסים, עובד בלי להתפשר על הערך שלו ומחזיק במקביל גם עבודה נוספת.",
+  "hook": "פרק על מתווך שלא מוריד את הראש, את המחיר או את ה-2% — גם כשהחיים לוחצים.",
+  "why": "כדי לקבל ביטחון לעמוד על שני אחוז עמלה ולהציב גבולות למוכרים שדורשים מחיר מנותק",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=Vz60Xcbw1dI",
+   "spotify": "https://open.spotify.com/episode/1jASIaWPtbmPFSW1X0phBr",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "אני לא מתפשר על האחוזים שלי. בסופו של דבר, שני אחוז אצלי זה קודש קודשים.",
+    "speaker": "קנדו טדסה"
+   },
+   {
+    "text": "אני לא יכול להתחייב לתאריך מסוים. אני אעבוד על הנכס עד הסוף.",
+    "speaker": "קנדו טדסה"
+   },
+   {
+    "text": "אם לא הבאתי לך קונה בשבועיים האלה והחודשיים האלה, הייתי כבר משחרר אותך מלפניכן.",
+    "speaker": "קנדו טדסה"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 3,
+    "field_fighter": 2,
+    "leader": 0,
+    "numbers_person": 0,
+    "strong_mind": 2,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 2,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 2,
+    "numbers": 1,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": 0,
+   "world": {
+    "business": 1,
+    "head_field": 2,
+    "money": 0,
+    "sales": 3
+   },
+   "pains": [
+    "fee_objection",
+    "unrealistic_price",
+    "exclusivity_objection",
+    "life_price"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 22.24,
+   "views": 457
+  }
+ },
+ {
+  "id": "remax_carmit_008",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 8,
+  "guest": "שחף אביטן",
+  "title": "יש לך את זה. עכשיו תן הכול. עם שחף אביטן",
+  "guest_line": "שחף אביטן - מעצב שיער לשעבר בלוס אנג'לס (11 שנה), עבר לנדל\"ן ב-RE/MAX ירושלים בגיל 36, תוך שנתיים הגיע למועדוני היוקרה של הרשת ובנה צוות משלו, עובד רק בבלעדיות.",
+  "hook": "פגישת מכירה אמיתית, מוקלטת, עם כל ההתנגדויות - ככה עונים על 'בלעדיות'.",
+  "why": "סימולציה חיה שתיתן לך תשובות מוכנות ובוטחות למוכר שמתנגד לבלעדיות ולעמלה",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=H96mWDpI3HM",
+   "spotify": "https://open.spotify.com/episode/488gkxgY33iW2dQBSovhJV",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "קרמית, מה זה בלעדיות? בלעדיות זה הבטחת הכנסה.",
+    "speaker": "האורח (שחף)"
+   },
+   {
+    "text": "נקודת יציאה בשלושה חודשים הדדית - כי אם תוך שלושה חודשים לא מכרתי את הבית, את מבזבזת לי את הזמן ואני מבזבז לך את הזמן.",
+    "speaker": "האורח (שחף)"
+   },
+   {
+    "text": "אם זה לא היה בגיל 36, ככל הנראה הבגרות בראש, הבגרות העסקית, לא הייתה קורית.",
+    "speaker": "האורח (שחף)"
+   },
+   {
+    "text": "בזמן שאני עובד, אני עובד רק יומיים בשבוע בנדל\"ן, וכל השאר בעצם הייתי מגיע לתל אביב למספרה.",
+    "speaker": "האורח (שחף)"
+   },
+   {
+    "text": "מעולם לא למדתי למבחן, מעולם לא עשיתי שיעורי בית. אני לא בן אדם כזה.",
+    "speaker": "האורח (שחף)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 3,
+    "field_fighter": 1,
+    "leader": 0,
+    "numbers_person": 0,
+    "strong_mind": 1,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 2,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 3,
+    "numbers": 0,
+    "personal_story": 1,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 3,
+    "inspiring": 1,
+    "light_funny": 0
+   },
+   "hh": 2,
+   "world": {
+    "business": 0,
+    "head_field": 1,
+    "money": 0,
+    "sales": 3
+   },
+   "pains": [
+    "exclusivity_objection",
+    "fee_objection",
+    "career_entry"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 23.1,
+   "views": 435
+  }
+ },
+ {
+  "id": "remax_carmit_009",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 9,
+  "guest": "אלמוג ויניב",
+  "title": "איך שני סוכנים צעירים כבשו עיר של מתווכים ותיקים עם אלמוג כהן ויניב גולקרוב",
+  "guest_line": "שני סוכנים צעירים מיהוד שבנו יחד נוכחות מקומית דרך שטח, עקביות ושיתוף פעולה.",
+  "hook": "איך בונים שם בעיר של מתווכים ותיקים, דלת אחרי דלת, עד שהשוק מתחיל לחפש אותך?",
+  "why": "אם אתה רוצה לכבוש אזור מאפס מול מתווכים ותיקים, זה המדריך המעשי שלך לשטח",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=-EIU1WC6IYw",
+   "spotify": "https://open.spotify.com/episode/6Mn21FUqSDCEbYBcwAlwbJ",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "למדנו לנהל את האגו, הגענו למצב שאנחנו מנהלים אותו ולא הוא מנהל אותנו.",
+    "speaker": "אלמוג"
+   },
+   {
+    "text": "אם אתה רוצה לבדל את עצמך מהם, אתה רוצה להיות משהו אחר. אתה רוצה לתת משהו אחר.",
+    "speaker": "יניב"
+   },
+   {
+    "text": "אני יוצא לפעולה, עובר, שוכח מהמקרה שקורה.",
+    "speaker": "אלמוג"
+   },
+   {
+    "text": "אני מאמין בלתת וכמה שיותר וכמה שצריך וכמה שיותר טוב לעשות לאנשים.",
+    "speaker": "אלמוג"
+   },
+   {
+    "text": "אני מעדיף ביום שישי להתעכב עוד 15 דקות רגע במשרד.",
+    "speaker": "יניב"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 3,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 2,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 0,
+    "starter": 3,
+    "veteran_leap": 0
+   },
+   "style": {
+    "live_demo": 3,
+    "numbers": 0,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 1,
+    "inspiring": 2,
+    "light_funny": 2
+   },
+   "hh": 1,
+   "world": {
+    "business": 1,
+    "head_field": 3,
+    "money": 0,
+    "sales": 2
+   },
+   "pains": [
+    "field_presence",
+    "career_entry",
+    "rejection_stings"
+   ],
+   "guest_kind": "couple_or_team"
+  },
+  "perf": {
+   "retention": 18.96,
+   "views": 221
+  }
+ },
+ {
+  "id": "remax_carmit_010",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 10,
+  "guest": "נחום בנילוב",
+  "title": "למה סוכן טוב לא מפחד להפסיד לקוח עם נחום בנילוב",
+  "guest_line": "מאמן מכירות שמנסה לשנות את תרבות המכירות בישראל דרך הקשבה, אבחון ושירות אנושי.",
+  "hook": "סוכן טוב לא רודף אחרי כל עסקה — הוא יודע מתי להקשיב, מתי להתעקש ומתי לשחרר.",
+  "why": "אם אתה נלחץ מסירוב בטלפון או מתפשר על המחיר, כאן תלמד להוביל עסקאות בלי לרדוף.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=fDU8bHxF1pA",
+   "spotify": "https://open.spotify.com/episode/3hqErnqzSA7hUCous9CdzA",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "סוכן שלא מפחד להפסיד את הלקוח או לפספס עסקה, הוא הרוויח את המוניטין שלו ואת המקצועיות שלו.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "הבדל בין מקצוען לחובבן, זה שאנחנו לא מנסים גם לסגור עם כל אחד.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "מי צריך לדבר יותר, הלקוח או היועץ? חד משמעית הלקוח.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "המטרה של השיחה זה לחתור קודם כל להגיע לבית, לשיעור בנכס הזה.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "השקט הזה, הדבר שהכי קונה בשיחות מכירה זה לא פיץ', זה לא מה את אומרת בהתחלה בסוף.",
+    "speaker": "האורח"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 2,
+    "field_fighter": 1,
+    "leader": 0,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 2,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 2,
+    "numbers": 0,
+    "personal_story": 2,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 2,
+    "light_funny": 1
+   },
+   "hh": 0,
+   "world": {
+    "business": 1,
+    "head_field": 2,
+    "money": 0,
+    "sales": 3
+   },
+   "pains": [
+    "rejection_stings",
+    "unrealistic_price",
+    "fee_objection"
+   ],
+   "guest_kind": "other"
+  },
+  "perf": {
+   "retention": 20.16,
+   "views": 112
+  }
+ },
+ {
+  "id": "remax_carmit_011",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 11,
+  "guest": "ליאור ואורי",
+  "title": "משחקי אגו? איך מגשרים בין קונים למוכרים עם ליאור בן צור ואורי כהן",
+  "guest_line": "ליאור בן צור ואורי כהן - שני סוכנים מ'צוות רוזנברג' ברימקס סאקסס: ליאור מתמחה בקונים (11 שנה בתחום), אורי במוכרים (3.5 שנים, פעם תלמיד של ליאור בזינוק לעסקים).",
+  "hook": "שני סוכנים, קונים ומוכרים, אותו צוות - איך זה בכלל לא מתנגש?",
+  "why": "תראה איך לפרק התנגדויות מחיר ולסנן קונים בסימולציות חיות, במקום לאלתר מהבטן בפגישה הבאה שלך.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=yWAD1zYoZ2o",
+   "spotify": "https://open.spotify.com/episode/1WC3KmKkFfprl9zKCxZWIa",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "אני בחור כל כך צעיר בעולם כל כך דיגיטלי, אני עובד בפתקים.",
+    "speaker": "אורי"
+   },
+   {
+    "text": "זו המעלה של סוכני קונים - דווקא מאותם אנשים קשים הם יודעים בדיוק מה הם רוצים מעצמם.",
+    "speaker": "ליאור"
+   },
+   {
+    "text": "לנו יש אינטרס למכור את זה גם במחיר הגבוה ביותר, גם כי אנחנו נרוויח יותר. וגם קודם כל שתהיו מבסוטים מהתהליך ותקבלי את המחיר הגבוה ביותר.",
+    "speaker": "ליאור"
+   },
+   {
+    "text": "בשוק יבואו עשר קונים, ולצורך הדוגמה יגידו הבית שווה מיליון שקלים, אז הבית שווה מיליון. את תחליטי למי למכור, מתי למכור ובכמה למכור.",
+    "speaker": "אורי"
+   },
+   {
+    "text": "אני מבין שהבן אדם הזה עדיין לא מכר את הדירה שלו... אני צריכה להמיר אותו מקונה למוכר.",
+    "speaker": "ליאור"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 3,
+    "field_fighter": 2,
+    "leader": 1,
+    "numbers_person": 1,
+    "strong_mind": 1,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 1,
+    "starter": 1,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 3,
+    "numbers": 1,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 1,
+    "light_funny": 2
+   },
+   "hh": 2,
+   "world": {
+    "business": 2,
+    "head_field": 1,
+    "money": 1,
+    "sales": 3
+   },
+   "pains": [
+    "unrealistic_price",
+    "buyer_filtering",
+    "all_on_me"
+   ],
+   "guest_kind": "couple_or_team"
+  },
+  "perf": {
+   "retention": 18.73,
+   "views": 252
+  }
+ },
+ {
+  "id": "remax_carmit_012",
+  "client_id": "remax_carmit",
+  "show": "סוגרים עסקה",
+  "host": "כרמית",
+  "ep": 12,
+  "guest": "אוריאל יוספי",
+  "title": "לא מחכים להצלחה - יוצרים אותה עם אוריאל יוספי",
+  "guest_line": "מאמן סוכנים ומנהל מכירות ברימקס פלוס באר שבע, שחי את השטח, את השגרה ואת ההתמודדות עם הלא.",
+  "hook": "פרק לסוכנים שרוצים להפסיק לפחד מלאים ולהתחיל לבנות הצלחה דרך פעולות יומיומיות.",
+  "why": "תלמד איך להפסיק לקחת את הלא אישית, לבנות שגרת שטח יומיומית ולהתמודד בביטחון עם כל התנגדות.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=pEKuYz_1c7k",
+   "spotify": "https://open.spotify.com/episode/5QsC2b560tQBl5qKaPN0DU",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933276"
+  },
+  "quotes": [
+   {
+    "text": "אני לא מאמין בתוצאה. אני מאמין בדרך",
+    "speaker": "אוריאל יוספי"
+   },
+   {
+    "text": "אל תיקחו את הלא אישית. הלא הוא לא אליכם, הלא הוא לא לנדל״ן.",
+    "speaker": "אוריאל יוספי"
+   },
+   {
+    "text": "אי אפשר ללמד בן אדם שלא מאמין בעצמו.",
+    "speaker": "אוריאל יוספי"
+   },
+   {
+    "text": "אני לא יוצא עם סוכן שלנו לשטח עד שהוא לא מדוגם.",
+    "speaker": "אוריאל יוספי"
+   },
+   {
+    "text": "המטרה שלי, שוב אני אומר, היא לא להיכנס לכל בית, שיכירו אותי בשקט.",
+    "speaker": "אוריאל יוספי"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 2,
+    "field_fighter": 3,
+    "leader": 2,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 2,
+    "starter": 3,
+    "veteran_leap": 0
+   },
+   "style": {
+    "live_demo": 3,
+    "numbers": 0,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 0
+   },
+   "hh": 0,
+   "world": {
+    "business": 1,
+    "head_field": 3,
+    "money": 0,
+    "sales": 2
+   },
+   "pains": [
+    "rejection_stings",
+    "field_presence",
+    "exclusivity_objection"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": null,
+   "views": 8
+  }
+ },
+ {
+  "id": "remax_gil_001",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 1,
+  "guest": "ד״ר עו״ד יניב זייד",
+  "title": "הנוסחה המנצחת של ד״ר עו״ד יניב זייד",
+  "guest_line": "ד\"ר יניב זייד, 'דוקטור שכנוע' - יועץ עסקי ומרצה בינלאומי לשיווק, מכירות ושכנוע, שהתחיל כאלוף דיבייט וכתב 11 ספרים בנושא.",
+  "hook": "דוקטור שכנוע מסביר למה AI יחליף טכנאים אבל לא יחליף מומחים.",
+  "why": "אם נכנסת לתחום מתוך צורך בפרנסה, תגלה איך לבנות מומחיות אמיתית ותשוקה שתגן עליך מכל תחרות",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=Rc-J_mQb7hg",
+   "spotify": "https://open.spotify.com/episode/0S1OfyWDENORYnDZ1QDd1d",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "מי שמומחה, ה-AI יהיה חבר טוב שלו. מי שטכנאי במובן הרע, שהוא עושה את המינימום, AI יחליף אותו גם היום",
+    "speaker": "יניב"
+   },
+   {
+    "text": "עכשיו זה שלכם, ואתה יכול או שאתה עושה את שיעורי הבית או שאתה מתחיל למכור תירוצים",
+    "speaker": "יניב"
+   },
+   {
+    "text": "תמיד עדיף להיות ליצן רפואי מאושר... מאשר עוד עורך דין או עורך חשבון מתוסכל",
+    "speaker": "יניב"
+   },
+   {
+    "text": "אמריקאים ענו בממוצע שלושה חברים... יש לי שלושה, אני רוצה חמישה עשר, זה פער של שניים עשר חברים",
+    "speaker": "יניב"
+   },
+   {
+    "text": "אני כמוך, אני אדם רגיל... פחדתי מחושך, אבל אימנתי את עצמי לעוף. אז בוא אני אלמד אתכם מה עשיתי",
+    "speaker": "יניב"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 1,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 0,
+    "starter": 3,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 1,
+    "personal_story": 2,
+    "tools": 1
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": -1,
+   "world": {
+    "business": 1,
+    "head_field": 3,
+    "money": 0,
+    "sales": 2
+   },
+   "pains": [
+    "career_entry",
+    "stage_and_brand",
+    "burnout"
+   ],
+   "guest_kind": "other"
+  },
+  "perf": {
+   "retention": 16.12,
+   "views": 193
+  }
+ },
+ {
+  "id": "remax_gil_002",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 2,
+  "guest": "אלון גל",
+  "title": "איך הופכים כישלון לקרש קפיצה? עם אלון גל",
+  "guest_line": "אלון גל, מייסד ומאמן ראשי של טוט תקשורת ותוצאות - חברת האימון האישי והעסקי המובילה בישראל, עם כ-30 שנות ניסיון בליווי אנשי מכירות, מאמנים וזכיינים.",
+  "hook": "המאמן שלימד אלפי סוכני ביטוח וזכיינים איך לא לוותר - גם כשהתוצאה לא מגיעה.",
+  "why": "אם כל סירוב בטלפון מרגיש לך כמו פגיעה אישית ואתה מחפש כוח להמשיך לחייג",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=RDu5mfXLBRI",
+   "spotify": "https://open.spotify.com/episode/2B9gjOQPhOVFbVZh7oYqRh",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "התוצאה לא מגדירה אותך, כי אתה מגדיר אותך.",
+    "speaker": "אלון גל (האורח)"
+   },
+   {
+    "text": "אני חושב שההגדרה של אדם מצליח זה אדם שנשאר באופטימיות גבוהה בין כישלון לכישלון.",
+    "speaker": "אלון גל (האורח)"
+   },
+   {
+    "text": "אתם רוצים לדעת מה סוד ההצלחה שלי? אני האחרון שנשאר עומד.",
+    "speaker": "אלון גל (מצטט את דארן הרדי)"
+   },
+   {
+    "text": "אני הייתי כמו חיה, לא יכולתי לוותר. הבנתי שאם אני מוותר, לא יהיה לי, אני לא אחיה, אסור לי לוותר.",
+    "speaker": "אלון גל (האורח)"
+   },
+   {
+    "text": "היקום הזה בחוץ, בסוף, הוא מראה של היקום הפנימי שלנו.",
+    "speaker": "אלון גל (האורח)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 2,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 1,
+    "starter": 3,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 1
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 0
+   },
+   "hh": -2,
+   "world": {
+    "business": 1,
+    "head_field": 3,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "rejection_stings",
+    "burnout"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": 22.58,
+   "views": 417
+  }
+ },
+ {
+  "id": "remax_gil_003",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 3,
+  "guest": "ענבר אלון",
+  "title": "איך לבנות עסק נגד הזרם? עם ענבר אלון",
+  "guest_line": "ענבר אלון היא מתווכת-משקיעים מצליחה, רב-סרן במילואים, שבנתה עסק המבוסס על קונים ולא על גיוס נכסים בבלעדיות.",
+  "hook": "מה קורה כשאתה בונה עסק תיווך סביב משקיעים, למרות שכל השוק אומר לך ללכת לכיוון אחר?",
+  "why": "אם אתה רוצה לבנות עסק ממוקד משקיעים בדרך שלך, למדוד ביצועים ולהפסיק לעשות הכל לבד.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=ctuWz-A02mI",
+   "spotify": "https://open.spotify.com/episode/0ApcY5hJhJH7XrSBsKOeIA",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "התחרותיות של האנשים המצליחים היא לא על פני אחרים, היא על פני עצמם.",
+    "speaker": "ענבר אלון"
+   },
+   {
+    "text": "אני לא צריכה להיות טובה בהכול.",
+    "speaker": "ענבר אלון"
+   },
+   {
+    "text": "כשאתה לא מתעסק בזה שזה לא פשוט, הדברים עובדים הרבה יותר טוב.",
+    "speaker": "ענבר אלון"
+   },
+   {
+    "text": "אני אעשה את זה אחרת, אני אביא את הלקוחות, אני אבנה להם חוויית לקוח.",
+    "speaker": "ענבר אלון"
+   },
+   {
+    "text": "אני לא קורעת את עצמי בשביל לעבוד כל כך קשה.",
+    "speaker": "ענבר אלון"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 0,
+    "leader": 1,
+    "numbers_person": 1,
+    "strong_mind": 2,
+    "system_builder": 3
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 1,
+    "starter": 1,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 1,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 0
+   },
+   "hh": 0,
+   "world": {
+    "business": 3,
+    "head_field": 1,
+    "money": 1,
+    "sales": 2
+   },
+   "pains": [
+    "no_system",
+    "all_on_me",
+    "post_success"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 22.02,
+   "views": 290
+  }
+ },
+ {
+  "id": "remax_gil_004",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 4,
+  "guest": "ניצן שטיינברג",
+  "title": "מנטליות של אלופים מהלוח לחיים עם ניצן שטיינברג",
+  "guest_line": "שחקן שחמט מקצועי בן 28, יוטיובר מוביל בתחום השחמט בעברית (כ-12,500 מנויים, מיליוני צפיות תוך פחות משנה), ומאמן/מנטור לשחקנים צעירים.",
+  "hook": "אלוף עולם מגיל 12 מלמד: הפחד הכי גדול שלך כבר לא מפחיד ברגע ששאלת 'מה הכי גרוע שיכול לקרות'.",
+  "why": "אם אתה קופא מול שיחה חשובה או מתקשה להתאושש מעסקה שנפלה, תקבל כאן כלים לפרק את הפחד.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=zLeBBt_JBVY",
+   "spotify": "https://open.spotify.com/episode/6x6FAQ7CA9qBD27OVKawOo",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "בואו נחשוב ביחד מה ה-worst case. מה הדבר הכי גרוע שיכול לקרות?",
+    "speaker": "האורח (ניצן)"
+   },
+   {
+    "text": "פחד זה הרבה פעמים אירועים מומצאים, false events שאתה חושב שהם אמיתיים.",
+    "speaker": "האורח (ניצן)"
+   },
+   {
+    "text": "המנטור בעיניי הכי טוב זה מנטור שנותן תחושה של חלק מהדרך. אתה לא מגיע לפגישה לבד.",
+    "speaker": "האורח (ניצן)"
+   },
+   {
+    "text": "לא הרגשתי שאני מפספס, גם אם הייתי מפסיד, גם אם היו תחרויות מאוד מאוד קשות - זה עבר לי מהר. בסך הכול נהניתי מהחוויה.",
+    "speaker": "האורח (ניצן)"
+   },
+   {
+    "text": "רוב התחרות שלי, מי שצופה, אני מתחיל בלכת... אני מפסיד ראשון, ואז מתחיל לנצח, כי אני צריך איזושהי מכה של התעוררות.",
+    "speaker": "האורח (ניצן)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 1,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 1,
+    "starter": 1,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 1
+   },
+   "tone": {
+    "direct_tough": 1,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": -2,
+   "world": {
+    "business": 0,
+    "head_field": 3,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "rejection_stings",
+    "burnout"
+   ],
+   "guest_kind": "sport_champion"
+  },
+  "perf": {
+   "retention": 15.5,
+   "views": 318
+  }
+ },
+ {
+  "id": "remax_gil_005",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 5,
+  "guest": "אנה מירקין",
+  "title": "האישה שכבשה את נהריה ברגליים עם אנה מירקין",
+  "guest_line": "סוכנת ותיקה ברימקס חלוצים נהריה, כמעט 16 שנה ברשת, חברת מועדון הצ'רמן וראש צוות של שתי סוכנות.",
+  "hook": "שש עשרה שנה, שתי רחובות, ובלי אף פעם לשחק תפקיד.",
+  "why": "אם את חוששת לצאת לשטח, הפרק הזה יראה לך איך לבנות עסק יציב בלי לשחק תפקיד",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=crfdu4kAKpM",
+   "spotify": "https://open.spotify.com/episode/6FVOHyuEW2t1r7NMegR3Ar",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "אני זאת אני קודם כל, ואנשים לא מחפשים את השפה המיוחדת, אנשים מחפשים אמונה, אנרגיות, ובן אדם שמאמין במה שהוא עושה.",
+    "speaker": "אנה מירקין"
+   },
+   {
+    "text": "קודם כל, לא להרוויח עמלת תיווך זה לא הפסד. זה לא להרוויח עמלה.",
+    "speaker": "אנה מירקין"
+   },
+   {
+    "text": "אני חוזרת ואומרת, פחות תיאוריה, יותר פרקטיקה. זכרו את זה. חשוב.",
+    "speaker": "אנה מירקין"
+   },
+   {
+    "text": "מי שכמו שאומרים, לא מעיז, קשה לי להאמין שהוא יכול להצליח. אני העזתי.",
+    "speaker": "אנה מירקין"
+   },
+   {
+    "text": "זה יתרון מטורף. צריך להשתמש בכוח נשי, כמו שאומרים, ב-level הנכון ולכיוון הנכון.",
+    "speaker": "אנה מירקין"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 3,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 2,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 1,
+    "starter": 3,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 1,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": 0,
+   "world": {
+    "business": 1,
+    "head_field": 3,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "field_presence",
+    "career_entry",
+    "rejection_stings"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 20.02,
+   "views": 190
+  }
+ },
+ {
+  "id": "remax_gil_006",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 6,
+  "guest": "אסף מויאל",
+  "title": "הסוד להכשרת אנשי עסקים מנצחים עם אסף מויאל",
+  "guest_line": "זכיין ומנהל של רימקס פלוס באר שבע, שהפך מסוכן שטח למי שבונה ומפתח סוכנים ומשרד שלם.",
+  "hook": "אם אתה מוכן לעשות את העבודה מספיק זמן, הפרק הזה יזכיר לך למה עוד לא לפרוש.",
+  "why": "כדי לקבל פרספקטיבה ואוויר להמשיך בעבודת השטח, גם כשהתוצאות מתעכבות ועדיין אין פריצה",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=cfo-yTDAJoc",
+   "spotify": "https://open.spotify.com/episode/3ccCOZckOQEHowCs2jH1qz",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "בתחום התיווך באמת כמעט כל אחד יכול להצליח. הבעיה זה כמה אנשים מוכנים לעשות את העבודה ולהשקיע את הזמן.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "היכולת שלך לשוחח עם אנשים היא משהו שהעתיד שלך תלוי בו.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אני תמיד אסתדר איתך, לא משנה מי אתה ומה אתה, כל עוד אתה בעשייה.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "האדם שמכיר אנשים, אדם שעשיר במערכות יחסים הוא אדם עשיר.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אין שום תכלית ביציאה הזו לשטח רק לקשקש, ומשם עולים דברים.",
+    "speaker": "האורח"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 3,
+    "leader": 2,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 2,
+    "starter": 3,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 0
+   },
+   "hh": -1,
+   "world": {
+    "business": 2,
+    "head_field": 3,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "career_entry",
+    "field_presence",
+    "burnout"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": 21.81,
+   "views": 125
+  }
+ },
+ {
+  "id": "remax_gil_007",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 7,
+  "guest": "ערן רוזנברגר",
+  "title": "מצוינות - מאחד מאלף לאחד לאלף עם ערן רוזנברגר",
+  "guest_line": "ערן רוזנברגר - ראש צוות ברימקס סקאיפ 2 בחולון, 18 שנה ברשת ומוביל טבלת המכירות מדי שנה, מנהל צוות של 20 סוכנים עם מעל 250 נכסים בבלעדיות.",
+  "hook": "18 שנה במקום ראשון - איך בונים צוות, מותג ועסק שלא נופל.",
+  "why": "אם אתה מנהל צוות או שוקל לבנות אחד, ומתלבט איך לשחרר שליטה בלי לפגוע בהצלחה",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=EWJe6iHqW9k",
+   "spotify": "https://open.spotify.com/episode/3J4FrM29uM4PelCcz7WfS5",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "אני קודם כל מסתכל במראה. מה אני יכול לעשות טוב יותר?",
+    "speaker": "ערן רוזנברגר (האורח)"
+   },
+   {
+    "text": "הפחד הוא לא נעלם, הפחד קיים כל יום. אני כל יום קם עם פחד.",
+    "speaker": "ערן רוזנברגר (האורח)"
+   },
+   {
+    "text": "ניתקתי מעצמי את כל האנשים שליליים מסביבי.",
+    "speaker": "ערן רוזנברגר (האורח)"
+   },
+   {
+    "text": "אני מחפש הרבה מאוד רעב, ואש בעיניים.",
+    "speaker": "ערן רוזנברגר (האורח)"
+   },
+   {
+    "text": "זה מרגש אותי, אי אפשר להסביר את זה.",
+    "speaker": "ערן רוזנברגר (האורח)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 1,
+    "leader": 3,
+    "numbers_person": 0,
+    "strong_mind": 2,
+    "system_builder": 3
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 3,
+    "starter": 1,
+    "veteran_leap": 3
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 0
+   },
+   "hh": 0,
+   "world": {
+    "business": 3,
+    "head_field": 2,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "all_on_me",
+    "team_stuck",
+    "post_success"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 25.72,
+   "views": 265
+  }
+ },
+ {
+  "id": "remax_gil_008",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 8,
+  "guest": "חן נחום",
+  "title": "בין השורות - מיומנויות השפעה ליישום מיידי! עם חן נחום",
+  "guest_line": "מרצה ומדריכת דיבור-מול-קהל ושכנוע, עשר שנים ניסיון בדיבייטינג, הייתה סוכנת ב-RE/MAX לרבע שעה בלבד לפני שנים - כמעט לא אורחת 'נדל\"ן' קלאסית.",
+  "hook": "פחד קהל הוא לא פחד מהקהל - זה עיסוק עצמי, וזה ניתן לתיקון.",
+  "why": "אם אתה יודע את החומר אבל נלחץ מול קהל, כאן תקבל כלים מעשיים לביטחון ונוכחות משכנעת.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=Bvb12wycrxQ",
+   "spotify": "https://open.spotify.com/episode/0PfCAlrA9TATPKR0eNGAlR",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "פחד קהל הוא לא באמת קשור לקהל, זאת האירוניה. פחד קהל קשור אליי.",
+    "speaker": "האורחת (חן נחום)"
+   },
+   {
+    "text": "הטעות הכי נפוצה בדיבור מול קהל היא עיסוק יתר במה אני אומר במקום באיך אני אומר.",
+    "speaker": "האורחת (חן נחום)"
+   },
+   {
+    "text": "אנשים ישכחו מה אמרת, אנשים ישכחו מה עשית, אבל הם לעולם לא ישכחו איך גרמת להם להרגיש.",
+    "speaker": "האורחת (חן נחום)"
+   },
+   {
+    "text": "הקהל לא מתעסק באמת בנו, הוא מתעסק בערך. הקהל חושב על הערך שהוא מקבל מאיתנו ולא עלינו.",
+    "speaker": "האורחת (חן נחום)"
+   },
+   {
+    "text": "אנשים כמהים! הם רק מחכים שמישהו ייתן להם את הרשות להתחיל לדבר על עצמם.",
+    "speaker": "האורחת (חן נחום)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 0,
+    "leader": 2,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 2,
+    "starter": 2,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 2,
+    "numbers": 0,
+    "personal_story": 2,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 1,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": 0,
+   "world": {
+    "business": 1,
+    "head_field": 2,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "stage_and_brand"
+   ],
+   "guest_kind": "other"
+  },
+  "perf": {
+   "retention": 20.38,
+   "views": 104
+  }
+ },
+ {
+  "id": "remax_gil_009",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 9,
+  "guest": "שרון ועופר לוינשטיין",
+  "title": "הסוד (הפשוט) להצלחה בתיווך נדל\"ן עם שרון ועופר לוינשטיין",
+  "guest_line": "זוג זכיינים מירושלים שמנהלים משרד תיווך תחרותי, שיטתי ומשפחתי, ובנו אותו דרך עשייה בלתי פוסקת.",
+  "hook": "לא צריך קסם או כריזמה: צריך תוכנית, פעולות, התמדה וסבלנות עד שהמספרים מתחילים לעבוד.",
+  "why": "תקבל תוכנית עבודה יומית ברורה ותבין שמשמעת והתמדה במספרים מנצחות כריזמה.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=0eN0iA1EzeM",
+   "spotify": "https://open.spotify.com/episode/2oZ0a5SJzWaFrrZYkdQj1I",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "מי שלא נמצא בעשייה הוא ייפלט מהתחום.",
+    "speaker": "עופר לוינשטיין"
+   },
+   {
+    "text": "מי שנכשל זה שעושה שתי שיחות והתייאש.",
+    "speaker": "עופר לוינשטיין"
+   },
+   {
+    "text": "אתה לא חייב להיות מסמר הערב, לא עם נוכחות, לא כריזמטי ברמה הקיצונית.",
+    "speaker": "שרון לוינשטיין"
+   },
+   {
+    "text": "מי שרוצה להצליח בתחום הוא צריך להיות בן אדם של אנשים, הוא צריך להיות סקרן והוא צריך להיות גם בן אדם חרוץ.",
+    "speaker": "עופר לוינשטיין"
+   },
+   {
+    "text": "אתה חייב כל הזמן ללמוד ואין אפשרות להצליח בתחום הזה למי שלא אוהב לעבוד, לא אוהב אנשים, לא אוהב ללמוד.",
+    "speaker": "עופר לוינשטיין"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 3,
+    "leader": 2,
+    "numbers_person": 0,
+    "strong_mind": 2,
+    "system_builder": 3
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 2,
+    "starter": 3,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 2,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 3,
+    "inspiring": 2,
+    "light_funny": 0
+   },
+   "hh": 1,
+   "world": {
+    "business": 3,
+    "head_field": 2,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "no_system",
+    "field_presence",
+    "career_entry",
+    "life_price"
+   ],
+   "guest_kind": "couple_or_team"
+  },
+  "perf": {
+   "retention": 23.7,
+   "views": 242
+  }
+ },
+ {
+  "id": "remax_gil_010",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 10,
+  "guest": "מתן ושיראל",
+  "title": "איך לבנות משמעת עצמית מנצחת עם מתן יצחק הלוי ושיראל גנון",
+  "guest_line": "שני סוכנים צעירים מאותו צוות מוביל (ערן רוזנברגר) - מתן, שעבר ממכירות לתיווך בגיל 21, ושיראל, מתכנתת לשעבר מדרום אפריקה - שני סגנונות הפוכים ('אש ומים') שמצליחים באותה מידה.",
+  "hook": "אש ומים, אותו צוות מספר 1: איך משמעת ואותנטיות מנצחות ביחד.",
+  "why": "אם נמאס לך לשחק דמות מול לקוחות ולהישבר מדחיות, תלמד איך משמעת יומיומית מנצחת פחד",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=a536o8ch7xs",
+   "spotify": "https://open.spotify.com/episode/2eB0174bYVn02zimaIrSAK",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "אין קורבנות בעולם העסקים, כל אחד שנמצא איפה שהוא נמצא בחר להיות פה",
+    "speaker": "מתן"
+   },
+   {
+    "text": "הפחד הוא מניע מדהים, אם אני יודע לטייל אותו למקום הנכון",
+    "speaker": "מתן"
+   },
+   {
+    "text": "המתנה הכי גדולה היא רק לעשות בלי לחשוב, אל תחשבו, חשבו בשבילכם",
+    "speaker": "גיל"
+   },
+   {
+    "text": "בפרזנטציה השלישית פשוט אמרתי טוב אני לא עוברת על זה בכלל, אני פשוט באה להציג באמת מי אני, מה אני יכולה לעשות",
+    "speaker": "שיראל"
+   },
+   {
+    "text": "אם אתה תעשה מספיק פעולות ותעבוד כמו רובוט ממושמע, זה הכל בלי חשיבה",
+    "speaker": "גיל"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 2,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 1,
+    "starter": 3,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 1
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": -2,
+   "world": {
+    "business": 1,
+    "head_field": 3,
+    "money": 0,
+    "sales": 0
+   },
+   "pains": [
+    "rejection_stings",
+    "career_entry",
+    "no_system"
+   ],
+   "guest_kind": "couple_or_team"
+  },
+  "perf": {
+   "retention": 15.65,
+   "views": 217
+  }
+ },
+ {
+  "id": "remax_gil_011",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 11,
+  "guest": "זהר כהן",
+  "title": "מה המתווכים המובילים בישראל יודעים שאתם מפספסים? עם זהר כהן",
+  "guest_line": "זהר כהן - לשעבר מתווכת וזכיינית ברימקס, היום מייסדת ובעלים של \"ברנדה\", חברה שנותנת שירותי משרד, ניהול סושיאל וטלמיטינג למתווכים.",
+  "hook": "מה עולה לך כל שעה שאתה לא בשטח? זהר עשתה את החשבון.",
+  "why": "כדי שתבין בדיוק כמה כסף שווה הזמן שלך בשטח ותלמד לשחרר את התפעול לאחרים",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=ZgnKtAFV3-I",
+   "spotify": "https://open.spotify.com/episode/1LtkzDmOn9YmEQpJ2sVQ5Q",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "השווי של מנתח לבית חולים הוא כשהוא מנתח. כל מה שהוא עושה מעבר לזה זה בזבוז זמן.",
+    "speaker": "זהר"
+   },
+   {
+    "text": "גם כשאתה מתווך ואתה one man show, אתה עסק לכל דבר, ועסק יש לו מחלקות.",
+    "speaker": "זהר"
+   },
+   {
+    "text": "אני כן מאמינה שבסוף הטכנולוגיה היא מייעלת, אבל האנושיות היא מה שמוכר.",
+    "speaker": "זהר"
+   },
+   {
+    "text": "מתווך יכול לרשום בצ'אט GPT, תעשה לי פוסט כזה וכזה וכזה. בסוף הכל נהיה רובוטי, ואנשים מזהים את זה.",
+    "speaker": "זהר"
+   },
+   {
+    "text": "הלקוחות מגיעים בגלל ברנדה, אבל נשארים בגלל הברנדה שלהם.",
+    "speaker": "זהר"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 1,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 1,
+    "system_builder": 3
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 1,
+    "starter": 0,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 1,
+    "numbers": 2,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 2,
+    "light_funny": 1
+   },
+   "hh": 1,
+   "world": {
+    "business": 3,
+    "head_field": 1,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "all_on_me",
+    "team_stuck",
+    "burnout"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": 23.05,
+   "views": 273
+  }
+ },
+ {
+  "id": "remax_gil_012",
+  "client_id": "remax_gil",
+  "show": "הפיצוח",
+  "host": "גיל",
+  "ep": 12,
+  "guest": "יגל",
+  "title": "מה עושים כשהלקוח אומר לא? עם יגל אלחסיד",
+  "guest_line": "יגל אלחסיד הוא איש מכירות, יועץ ומנחה שמלמד אנשי מכירות לעבוד עם שיטה, תרגול וקצב.",
+  "hook": "איך להפוך כל 'לא' לעוד שלב במשפך, עם שיטה, שאלות וקצב עבודה שמייצר פגישות.",
+  "why": "תקבל תסריטים מדויקים לפירוק התנגדויות ושיטה יומית שתהפוך כל סירוב בטלפון לפגישה ביומן.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=faEl8mkVvIs",
+   "spotify": "https://open.spotify.com/episode/68kCEteHrfVfQlGzB5tOZe",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896933326"
+  },
+  "quotes": [
+   {
+    "text": "הסדר ייתן לך את הזמן, הקצב ייתן לך את הכסף.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "הכישרון נותן לך להצליח יותר מהר, אבל ההתמדה והאימון עושים אותך הרבה יותר טוב.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "במקום שאין כאב, אין שינוי.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אני טוען שמכירה זה לא שכנוע וזה לא מניפולציה וזה לא איזשהו לחץ כזה או אחר, אלא מכירה היא תוצאה של תהליך נכון.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "ברגע שאני מבין שזה תהליך, אני אומר לו, אני עדיין לא יודע מה אני יכול למכור לך בכלל, חכה, בוא נכיר.",
+    "speaker": "האורח"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 3,
+    "field_fighter": 1,
+    "leader": 0,
+    "numbers_person": 0,
+    "strong_mind": 2,
+    "system_builder": 3
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 2,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 2,
+    "numbers": 2,
+    "personal_story": 0,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 3,
+    "inspiring": 2,
+    "light_funny": 0
+   },
+   "hh": 1,
+   "world": {
+    "business": 2,
+    "head_field": 2,
+    "money": 0,
+    "sales": 3
+   },
+   "pains": [
+    "rejection_stings",
+    "no_system",
+    "fee_objection"
+   ],
+   "guest_kind": "other"
+  },
+  "perf": {
+   "retention": null,
+   "views": 2
+  }
+ },
+ {
+  "id": "remax_natasha_001",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 1,
+  "guest": "נועם מנור",
+  "title": "עדיף כישלון מפואר מחלומות במגירה עם נועם מנור",
+  "guest_line": "פסיכולוג ספורט (לקראת דוקטורט באוניברסיטת אריאל) שמלווה ספורטאי עילית, אנשי יחידות מובחרות ואנשי ביצוע, ומתמחה בחוסן מנטלי תחת לחץ.",
+  "hook": "למה כישלון מפואר עדיף מחלום שנשאר במגירה, לפי פסיכולוג ספורט העילית.",
+  "why": "כדי שתפסיק לקחת סירוב באופן אישי ותחזור לפגישה הבאה בראש נקי ושקט",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=eVPiRrpMYLA",
+   "spotify": "https://open.spotify.com/episode/048UnlKkciNrll1QqNX5iv",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "אם לרונלדו מותר להחטיא פנדל... מי אני שאסור לי לפספס עסקה?",
+    "speaker": "נועם"
+   },
+   {
+    "text": "ברגע שאתה שם את כל הקלפים שלך על משהו שהוא בכלל לא בשליטתך, זה כמו לשים את כל הכסף על הרולטה",
+    "speaker": "נועם"
+   },
+   {
+    "text": "פה מיליוני אנשים ראו אותך צונח, צונח למטה ומתעלף, והבן אדם השני עוד ניצח על חשבונך, והוא מקבל את הכסף ואת הכבוד",
+    "speaker": "נועם"
+   },
+   {
+    "text": "האם מישהו יגיד לך כן או לא? אין לך שליטה על זה. האם תנצח בתחרות? סורי, אין לך שליטה על זה",
+    "speaker": "נועם"
+   },
+   {
+    "text": "בן אדם שמאמין שמשהו הגיע אל העולם זה מה יש, ואי אפשר לשנות. האנשים האלה פחות מצליחים בחיים",
+    "speaker": "נועם"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 2,
+    "leader": 0,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 1,
+    "starter": 3,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 1,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": -2,
+   "world": {
+    "business": 0,
+    "head_field": 3,
+    "money": 0,
+    "sales": 0
+   },
+   "pains": [
+    "rejection_stings",
+    "burnout"
+   ],
+   "guest_kind": "other"
+  },
+  "perf": {
+   "retention": 12.37,
+   "views": 149
+  }
+ },
+ {
+  "id": "remax_natasha_002",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 2,
+  "guest": "דבורה סממה",
+  "title": "אמיצה וקצת משוגעת עם דבורה סממה",
+  "guest_line": "זכיינית רימקס כחול לבן בנתניה, שמנהלת באמונה, רגישות, דרישה גבוהה ונכונות להמר על העסק גם בזמן משבר.",
+  "hook": "איך להחזיק צוות, משפחה ועסק כשבפנים את בעצמך כמעט נשברת.",
+  "why": "אם כולם נשענים עליך בעסק, הפרק הזה יראה לך איך להוביל בעוצמה בלי להישבר בדרך.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=FzqerI1maNo",
+   "spotify": "https://open.spotify.com/episode/276Fzl3hUwnYmmiHuWXQyq",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "כל השנה הזאת שאנחנו בכינו בסתר בשירותים של המשרד, וכשאני יוצאת מהשירותים אני לוקחת סוכן.",
+    "speaker": "דבורה סממה"
+   },
+   {
+    "text": "בעל עסק, מה אתה עושה בסוף? חוזר הביתה בלי כסף? אתה לא בעל עסק, נשמה.",
+    "speaker": "דבורה סממה"
+   },
+   {
+    "text": "ההצלחה שלי היא בעצם זה שאני כל יום לא מוותרת לעצמי, וכל יום שואלת מה השלב הבא שלי.",
+    "speaker": "דבורה סממה"
+   },
+   {
+    "text": "אני מאמינה בעסק שלי. אני מאמינה בתחום שלי ואני רוצה שתאמין בי.",
+    "speaker": "דבורה סממה"
+   },
+   {
+    "text": "ראינו בשוק מאוד רדום שיש סוכנים שעושים מיליונים, אז זה לא רלוונטי.",
+    "speaker": "דבורה סממה"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 1,
+    "leader": 3,
+    "numbers_person": 0,
+    "strong_mind": 2,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 1,
+    "manages_people": 3,
+    "starter": 0,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 1
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": -1,
+   "world": {
+    "business": 3,
+    "head_field": 2,
+    "money": 1,
+    "sales": 0
+   },
+   "pains": [
+    "team_stuck",
+    "life_price",
+    "all_on_me"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": 7.64,
+   "views": 101
+  }
+ },
+ {
+  "id": "remax_natasha_003",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 3,
+  "guest": "ברנרד רסקין",
+  "title": "שום דבר לא קורה בן לילה עם ברנרד רסקין",
+  "guest_line": "ברנרד רסקין, מייסד רימקס ישראל, מי שהביא את הרשת מארצות הברית לפני כ-55 שנה ובנה אותה לחברה המוכרת ביותר בענף בישראל.",
+  "hook": "שום דבר לא קורה בן לילה: ברנרד רסקין על ענווה, עבודה, ומה שבאמת בונה הצלחה.",
+  "why": "אם הגעת להישגים ואתה מתחיל להרגיש שזה מובן מאליו, ברנרד יזכיר לך איך לשמור על הרעב",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=v8nSFRxA1Ic",
+   "spotify": "https://open.spotify.com/episode/3V8mgtZ0dIU755KEdx6jbK",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "אני לא רואה את הצלחה כזכות ולא רואה את זה כמובטח.",
+    "speaker": "ברנרד רסקין (האורח)"
+   },
+   {
+    "text": "הברכה היחידה שקיבלתי זה שעבדתי כל יום.",
+    "speaker": "ברנרד רסקין (האורח)"
+   },
+   {
+    "text": "שום דבר לא קורה בן לילה, הכל זה תהליכים ארוכים, איטיים, הכל דברים לא פשוטים.",
+    "speaker": "ברנרד רסקין (האורח)"
+   },
+   {
+    "text": "יושבים בבית בערב, תחשוב על הסצנה הזאת, כוס וויסקי, אוכל, מדברים על מה לא היה בסדר, איפה אפשר לתקן, נהנים מהתחושה.",
+    "speaker": "נטשה (המנחה)"
+   },
+   {
+    "text": "אנחנו צריכים תמיד להתחיל כל ניתוח עצמי עם עצמנו.",
+    "speaker": "ברנרד רסקין (האורח)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 0,
+    "leader": 3,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 1,
+    "manages_people": 2,
+    "starter": 0,
+    "veteran_leap": 3
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 0
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 0
+   },
+   "hh": -2,
+   "world": {
+    "business": 3,
+    "head_field": 2,
+    "money": 0,
+    "sales": 0
+   },
+   "pains": [
+    "post_success",
+    "stage_and_brand"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": 12.95,
+   "views": 113
+  }
+ },
+ {
+  "id": "remax_natasha_004",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 4,
+  "guest": "שירלי ושאלתי",
+  "title": "משמעת עצמית מנצחת כל כישרון עם שירלי ורנר ושאלתי גיירו",
+  "guest_line": "שני זכיינים ותיקים ברשת רימקס (יחד קרוב ל-40 שנות ותק ברשת), שניהם מובילים קבוע בדירוגים ומנהלים משרדים משלהם.",
+  "hook": "מה שמחזיק זכיינים בפסגה 15 שנה זה לא הכישרון - זו המשמעת.",
+  "why": "תלמד איך לשמור על חוסן ומשמעת בפסגה, ולנהל את האגו והשחיקה ביום שאחרי ההצלחה הגדולה.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=C3uhSe7Sf9o",
+   "spotify": "https://open.spotify.com/episode/1Za0ONPBTPDMdNQAdnIyYj",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "צ'קים של תיווך זה כמו סמים, מתמכרים אליהם.",
+    "speaker": "שירלי"
+   },
+   {
+    "text": "אם עשית כסף ואתה מתחיל להתנהג כמו חרא, אתה לא תמשיך לעשות כסף... זה יפגוש אותך איפשהו.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אני ארבע פעמים ביום בודקת את הקונטרול. אם מישהו עובר אותי באותו רגע, אני יכולה להיכנס לדיכאון.",
+    "speaker": "שירלי"
+   },
+   {
+    "text": "אין לנו את הפריבילגיה לשבת ולהתפנק, אנחנו צריכים גם לתת דוגמה.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אני זקיינית השנה, זה לא מעניין אותי. אם אני לא זקיינית השנה, אני מודיעה לך, עזבתי את הרשת.",
+    "speaker": "שירלי"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 0,
+    "leader": 3,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 1,
+    "manages_people": 3,
+    "starter": 0,
+    "veteran_leap": 3
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 1
+   },
+   "tone": {
+    "direct_tough": 3,
+    "inspiring": 2,
+    "light_funny": 1
+   },
+   "hh": -1,
+   "world": {
+    "business": 3,
+    "head_field": 2,
+    "money": 0,
+    "sales": 0
+   },
+   "pains": [
+    "post_success",
+    "burnout",
+    "team_stuck"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": 19.22,
+   "views": 111
+  }
+ },
+ {
+  "id": "remax_natasha_005",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 5,
+  "guest": "שי אלבוכר",
+  "title": "המשמעת העצמית מאחורי ה-X Factor עם שי אלבוכר",
+  "guest_line": "מאמן ומנהל מאמנים בקבוצת רימקס סאקסס, שמתרגם שאיפות של סוכנים לתוכנית עבודה מדידה.",
+  "hook": "כך הופכים רעב להצלחה לשבוע עבודה שאפשר לבצע, למדוד ולשחזר.",
+  "why": "אם אתה רוצה להפוך שאיפות למספרים, הרגלים ושגרה שמחזיקים גם כשהשוק והחיים מטלטלים אותך.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=B8hieBBJOjc",
+   "spotify": "https://open.spotify.com/episode/6ygSDR1kpY9YO1MZhfHojq",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "השאלה אם אתה מוכן לעשות את הפעולות, לא אם אתה רוצה לעשות מיליון שקל.",
+    "speaker": "שי אלבוכר"
+   },
+   {
+    "text": "עסק צריך להתבסס על מערכת או על סיסטם, על הרגלים מקדמים ופחות על מצב רוח.",
+    "speaker": "שי אלבוכר"
+   },
+   {
+    "text": "לשמר את ההצלחה זה יותר קשה מלהצליח, ופה נמדד כמה החוזק המנטלי של בן אדם.",
+    "speaker": "שי אלבוכר"
+   },
+   {
+    "text": "כולם אומרים שהם רוצים כסף, אבל למה אתה צריך את הכסף?",
+    "speaker": "שי אלבוכר"
+   },
+   {
+    "text": "אני אוהב להגיד יותר הישגיות מאשר תחרות, כי בתחרות אני צריך תמיד מישהו להתמודד מולו.",
+    "speaker": "שי אלבוכר"
+   }
+  ],
+  "axes": {
+   "type": {
+    "field_fighter": 1,
+    "closer": 1,
+    "system_builder": 3,
+    "strong_mind": 3,
+    "numbers_person": 2,
+    "leader": 2
+   },
+   "stage": {
+    "starter": 1,
+    "builder": 3,
+    "veteran_leap": 2,
+    "manages_people": 2
+   },
+   "style": {
+    "personal_story": 2,
+    "tools": 3,
+    "live_demo": 0,
+    "numbers": 3
+   },
+   "tone": {
+    "inspiring": 2,
+    "direct_tough": 2,
+    "light_funny": 0
+   },
+   "hh": 1,
+   "world": {
+    "head_field": 2,
+    "sales": 1,
+    "money": 1,
+    "business": 3
+   },
+   "pains": [
+    "rejection_stings",
+    "burnout",
+    "no_system",
+    "post_success"
+   ],
+   "guest_kind": "other"
+  },
+  "perf": {
+   "retention": 14.58,
+   "views": 161
+  }
+ },
+ {
+  "id": "remax_natasha_006",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 6,
+  "guest": "שי שטרן",
+  "title": "להיות יוצא דופן עם שי שטרן",
+  "guest_line": "מאמן סוכנים ומנהל מאמנים בקבוצת רימקס סאקסס (חולון, רמלה, לוד ועוד), עם רקע במכירות ומשרד תיווך עצמאי שנסגר בקורונה לפני שהצטרף לרשת.",
+  "hook": "המערכת שמחזיקה 82 סוכנים בטופ, לא הכריזמה.",
+  "why": "אם אתה רוצה להחליף מוטיבציה במערכת עבודה מסודרת שמחזירה סוכנים לפעולה ומייצרת תוצאות לאורך זמן",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=wIsvbAEvArY",
+   "spotify": "https://open.spotify.com/episode/42DimWkFImylc9byFzFX8r",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "השאלה אם אתה מוכן לעשות את הפעולות, לא אם אתה רוצה לעשות מיליון שקל.",
+    "speaker": "שי שטרן"
+   },
+   {
+    "text": "היכולת של הצעד הסיסטמטי זה פחות זוהר, זה פחות כזה מצטלם יפה, אבל זה מה שמביא בסופו של דבר את ההצלחה ומשמר אותה לאורך זמן.",
+    "speaker": "שי שטרן"
+   },
+   {
+    "text": "אנחנו כולנו תחת מתקפה. אני פה, אני לא נעלם, זה לא עסק, אתה בן אדם.",
+    "speaker": "שי שטרן"
+   },
+   {
+    "text": "אני מאוד מאמין בגישה של אם יש לך, לאן אתה רוצה להגיע, ויש לך למה אתה צריך להגיע לשם, את האיך אתה תמצא לבד.",
+    "speaker": "שי שטרן"
+   },
+   {
+    "text": "הארנב הוא חמוד, הוא שובב, הוא עושה פרזנטציה, הוא מתחבר לאנשים, זה החלק הכיפי בעבודה של סוכן.",
+    "speaker": "שי שטרן"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 1,
+    "leader": 3,
+    "numbers_person": 0,
+    "strong_mind": 2,
+    "system_builder": 3
+   },
+   "stage": {
+    "builder": 1,
+    "manages_people": 3,
+    "starter": 0,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 2,
+    "personal_story": 1,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 2,
+    "light_funny": 0
+   },
+   "hh": 1,
+   "world": {
+    "business": 3,
+    "head_field": 2,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "no_system",
+    "team_stuck",
+    "rejection_stings"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": 23.3,
+   "views": 111
+  }
+ },
+ {
+  "id": "remax_natasha_007",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 7,
+  "guest": "מיכל תיכון",
+  "title": "יעד ריאלי הוא שיא הבינוניות עם מיכל תיכון",
+  "guest_line": "מיכל תיכון - מאמנת ויועצת עסקית ותיקה (מעל 30 שנה בתחום, 20 מהן עם אלון גל), מנהלת המחלקה העסקית ברשת שלו, מלמדת גם קורסי הכשרה לזכיינים וסוכנים ברימקס.",
+  "hook": "יעד שתמיד תעמוד בו הוא לא שאפתנות - זו תקרה. הנה איך שוברים אותה.",
+  "why": "אם אתה כבר מרוויח טוב אבל מרגיש תקוע, תלמד איך לפרק יעדים שאפתניים לפעולות יומיות",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=EZc-977kWVY",
+   "spotify": "https://open.spotify.com/episode/2G967kVxqS4AIE0HEQUswC",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "יעד ריאלי זה דבר איום ונורא. זה שיא הבינוניות עלי אדמות.",
+    "speaker": "מיכל תיכון (האורחת)"
+   },
+   {
+    "text": "הפחד הכי גדול שמניע את היקום הוא לא פחד מוות, הוא פחד מכישלון.",
+    "speaker": "מיכל תיכון (האורחת)"
+   },
+   {
+    "text": "בעל עסק רציני נחשב בעיניי רק אחרי שהוא קם מהנפילה.",
+    "speaker": "מיכל תיכון (האורחת)"
+   },
+   {
+    "text": "אין דבר כזה ניהול זמן, זה ניהול סדרי עדיפויות.",
+    "speaker": "מיכל תיכון (האורחת)"
+   },
+   {
+    "text": "בן אדם לא יכול לתת מה שאין לו.",
+    "speaker": "מיכל תיכון (האורחת)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 0,
+    "leader": 2,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 1,
+    "manages_people": 2,
+    "starter": 0,
+    "veteran_leap": 3
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 1,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": -1,
+   "world": {
+    "business": 3,
+    "head_field": 3,
+    "money": 0,
+    "sales": 0
+   },
+   "pains": [
+    "post_success",
+    "burnout"
+   ],
+   "guest_kind": "other"
+  },
+  "perf": {
+   "retention": 15.14,
+   "views": 116
+  }
+ },
+ {
+  "id": "remax_natasha_008",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 8,
+  "guest": "אדר",
+  "title": "אנחנו במרחק כפתור אחד מהגשמה עם אדר מרלינסקי",
+  "guest_line": "אדר מרלינסקי הוא איש מכירות ויזם שהפך כישלון עסקי וחובות לשיטה של פעולה, השפעה ופיתוח יכולות.",
+  "hook": "אם כל ״לא״ עוצר אותך, אולי ההתנגדות האמיתית בכלל נמצאת אצלך.",
+  "why": "אם אתה חושב יותר מדי ונעצר מכל לא, הפרק יחזיר לך את הדרייב לפעול בעקביות",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=sjkrSAbQyHw",
+   "spotify": "https://open.spotify.com/episode/3R75w2XKz5E2IcxiFi1Q5G",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "ההתנגדות הכי חזקה שיש לך זו התנגדות שיש לך את הכי הרבה הסכמה איתה.",
+    "speaker": "אדר"
+   },
+   {
+    "text": "אף אחד לא יעזור לך לעשות. אל תחכה. פשוט תעשה.",
+    "speaker": "אדר"
+   },
+   {
+    "text": "פשוט עשיתי את הבלתי אפשרי רק כי אף אחד לא אמר לי אחרת.",
+    "speaker": "אדר"
+   },
+   {
+    "text": "הסיבה שאנשים חושבים יותר מדי היא כי הם רוצים שהדברים יהיו פרפקט, שהכול יהיה מושלם.",
+    "speaker": "אדר"
+   },
+   {
+    "text": "לא הייתה לי ברירה, הייתי פשוט חייב להביא כסף.",
+    "speaker": "אדר"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 2,
+    "leader": 0,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 0,
+    "starter": 1,
+    "veteran_leap": 3
+   },
+   "style": {
+    "live_demo": 1,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 0
+   },
+   "hh": -1,
+   "world": {
+    "business": 1,
+    "head_field": 3,
+    "money": 0,
+    "sales": 2
+   },
+   "pains": [
+    "rejection_stings",
+    "fee_objection",
+    "post_success"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": 18.06,
+   "views": 80
+  }
+ },
+ {
+  "id": "remax_natasha_009",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 9,
+  "guest": "רועי",
+  "title": "האם הייתם מעסיקים את עצמכם? עם רועי לייבה",
+  "guest_line": "רועי לייבה - מתווך RE/MAX ותיק ומאמן סוכנים, בנה צוות של כ-30 סוכנים, עבר לאחרונה לתחום המסחרי ולעבודה בבלעדיות בלבד, חבר מועדוני היוקרה של הרשת.",
+  "hook": "האם היית מעסיק את עצמך היום? השאלה שקובעת אם אתה באמת מצליח.",
+  "why": "אם כבר הצלחת אבל משהו נתקע, וכעת אתה עובר מסוכן מוביל למנהיג שדוחף אחרים להצליח.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=PeW0qypjLeo",
+   "spotify": "https://open.spotify.com/episode/1njTtRA00OWtk0HML4k05X",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "אני כמנהל מפחד גידלתי פה בן אדם שעושה חצי מיליון שקל או מיליון, אז למה הוא צריך אותי יותר?",
+    "speaker": "האורח (רועי)"
+   },
+   {
+    "text": "אנשים שמתחילים לסטות מהמסלול הם האנשים שמאבדים את עצמם גם בתור מתווכים.",
+    "speaker": "האורח (רועי)"
+   },
+   {
+    "text": "הפארטו גורם להרבה מאוד אנשים שיכולים להצליח הרבה יותר ממה שהם חושבים... להפוך להיות עצמאי שלא יודע מה זה להיות עצמאי.",
+    "speaker": "האורח (רועי)"
+   },
+   {
+    "text": "קריסטיאנו בוכה וגם ההוא בוכה, כי אכפת להם, כי מפריע להם, כי הם לא עוצרים לשנייה.",
+    "speaker": "האורח (רועי)"
+   },
+   {
+    "text": "אני לא אומר שאני לא נופל, כי זה לא הגיוני להגיד את זה. יש לי את הימים האלה, אני יודע למי לפנות.",
+    "speaker": "האורח (רועי)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 0,
+    "leader": 3,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 1,
+    "manages_people": 2,
+    "starter": 0,
+    "veteran_leap": 3
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 1,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 3,
+    "inspiring": 2,
+    "light_funny": 0
+   },
+   "hh": -1,
+   "world": {
+    "business": 3,
+    "head_field": 2,
+    "money": 0,
+    "sales": 0
+   },
+   "pains": [
+    "post_success",
+    "team_stuck"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 19.52,
+   "views": 98
+  }
+ },
+ {
+  "id": "remax_natasha_010",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 10,
+  "guest": "רוית ומאיה",
+  "title": "מיליונים, משברים וקאווה קרה עם מאיה אמסלם ורווית שושני",
+  "guest_line": "שתי סוכנות ותיקות ומצליחות ברימקס - רוית שושני ומאיה אמסלם - שמדברות בלב פתוח על חוסן, משפחה וכסף.",
+  "hook": "שתי סוכנות טופ מדברות בלב פתוח על המחיר האמיתי של להצליח.",
+  "why": "אם הרגשת שהרגישות שלך היא חולשה, תגלה איך לקום מנפילות בעסקאות ולהפוך אמפתיה לכוח שלך",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=8MzN7-aOP7c",
+   "spotify": "https://open.spotify.com/episode/5nV3ayhV7iq90Va0JSgMOU",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "פתאום הבנתי שאני דוחפת יותר מאשר הקונה רוצה לקנות, צריך לעצור",
+    "speaker": "אחת האורחות"
+   },
+   {
+    "text": "הדבר המשמעותי הוא לא להשיג את הגול אלא... עד כמה יש לי כוח להיות כמו ספוג",
+    "speaker": "רוית (מצטטת מאמן מנטלי)"
+   },
+   {
+    "text": "תבחרי לחיים אחרים, תבחרי חיים שתשאי בהם יותר כסף ופחות עבודה קשה פיזית",
+    "speaker": "מאיה"
+   },
+   {
+    "text": "הכותרת שהיא כתבה לי זה תודה לפסיכולוגית הנדלן שלי",
+    "speaker": "רוית"
+   },
+   {
+    "text": "יש לפעמים מצבים של אנשים שמתגרשים... יש לפעמים למכור נכס אחרי שסבתא נפטרה וקיבלו בירושה",
+    "speaker": "אחת האורחות"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 1,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 0,
+    "starter": 0,
+    "veteran_leap": 3
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 1
+   },
+   "tone": {
+    "direct_tough": 1,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": -2,
+   "world": {
+    "business": 1,
+    "head_field": 3,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "life_price",
+    "burnout",
+    "rejection_stings"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 12.65,
+   "views": 116
+  }
+ },
+ {
+  "id": "remax_natasha_011",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 11,
+  "guest": "ניית׳ן דארט",
+  "title": "העסק שתומך בחלום שלך עם ניית'ן דארט",
+  "guest_line": "זכיין, איש מכירות ובונה-עסק מרימקס ארצות הברית, שלמד להפוך הצלחה אישית למערכת שתומכת בחיים.",
+  "hook": "הגיע הזמן שהעסק שלך יתמוך בחיים שלך — ולא שהחיים שלך ייעלמו בתוך העסק.",
+  "why": "אם אתה מוכר מעולה אבל העסק כולו עליך, כאן תלמד לבנות מערכת שלא תלויה רק בך.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=yWHZKDb9yio",
+   "spotify": "https://open.spotify.com/episode/754rp9gFTuVr80Lu6imGTV",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "To be a great salesperson does not make you a great business person.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "We truly want to be in a position to build a business that supports the life that we want to live.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "When you inspire your audience, it's emotional. You know, you've got a connection.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "They hired you for who you are and what you had to say when you did not have slides.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "Those mistakes can be very expensive, not only financially, but also with your time.",
+    "speaker": "האורח"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 0,
+    "leader": 2,
+    "numbers_person": 0,
+    "strong_mind": 1,
+    "system_builder": 3
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 2,
+    "starter": 0,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 1,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 1,
+    "inspiring": 2,
+    "light_funny": 2
+   },
+   "hh": 0,
+   "world": {
+    "business": 3,
+    "head_field": 1,
+    "money": 0,
+    "sales": 0
+   },
+   "pains": [
+    "all_on_me",
+    "no_system",
+    "team_stuck",
+    "life_price"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 8.75,
+   "views": 133
+  }
+ },
+ {
+  "id": "remax_natasha_012",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 12,
+  "guest": "שירלי ואבי",
+  "title": "השנה הראשונה בתיווך עם שירלי ורנר (קבוצת אושן) ואבי קורש (קבוצת מקצוענים)",
+  "guest_line": "שירלי ורנר (זכיינית רימקס אושן, תל אביב) ואבי קורש (זכיין קבוצת מקצוענים) - שני מנהלי משרד ותיקים שמדברים על מה שבאמת קובע הצלחה בשנה הראשונה בתיווך.",
+  "hook": "בן 21 או בן 70 - התיווך לא שואל בת כמה אתה, רק כמה אתה רעב.",
+  "why": "תבין למה הגיל לא קובע להצלחה בתיווך, ואיך להתכונן מנטלית לשנה הראשונה שלך בתחום",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=xhFpM7I8xmg",
+   "spotify": "https://open.spotify.com/episode/166kgbl1vKvQA9w1KepXxc",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "אנחנו עובדים מאוד מאוד קשה. תמיד אני אומרת להם: בשנה הראשונה אתם תשחקו סוליות, אתם תצטרכו לקבל 30 לא בשביל כן.",
+    "speaker": "שירלי"
+   },
+   {
+    "text": "יש לי סוכנים מעל גיל 70. ואחד הסניפים שלי בצפון תל אביב, חריג זה להיות מתחת לגיל 50.",
+    "speaker": "שירלי"
+   },
+   {
+    "text": "הרבה אנשים חושבים שאנחנו בעולם של מכירות, אני רואה את זה אחרת. אני חושב שאנחנו יותר בעולם של שירות, בעולם של חיבור לאנשים.",
+    "speaker": "אבי"
+   },
+   {
+    "text": "דווקא זה האנשים עם הרגליים על הקרקע, היציבים, הנאמנים - הם לא באים לחפש הרפתקאות לזגזג בין משרד למשרד.",
+    "speaker": "שירלי"
+   },
+   {
+    "text": "על רישיון תיווך זה עניין של מאות שקלים, ועל קורס מקצועי פחות משלושת אלפים שקלים. בסוף כל הדבר הזה הוא השקעה בעצמי.",
+    "speaker": "שירלי"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 1,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 1,
+    "manages_people": 1,
+    "starter": 3,
+    "veteran_leap": 0
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 1,
+    "personal_story": 1,
+    "tools": 1
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": -1,
+   "world": {
+    "business": 1,
+    "head_field": 3,
+    "money": 1,
+    "sales": 1
+   },
+   "pains": [
+    "career_entry",
+    "rejection_stings"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": 27.26,
+   "views": 182
+  }
+ },
+ {
+  "id": "remax_natasha_013",
+  "client_id": "remax_natasha",
+  "show": "אוויר פסגות",
+  "host": "נטשה",
+  "ep": 13,
+  "guest": "אנריקו בוצ'ינו",
+  "title": "עבודה קשה, תוצאות מוכחות עם אנריקו בוצ'ינו",
+  "guest_line": "מתווך RE/MAX ותיק בקוויבק, קנדה, חבר Hall of Fame, כמעט 30 שנה בענף (אך רק כ-7-8 שנים במשרה מלאה), עם רישיון משולב מגורים ומסחרי.",
+  "hook": "מתווך בהיכל התהילה שעדיין דופק על דלתות ומודה שאין לו CRM.",
+  "why": "תקבל הוכחה שאפשר להגיע לפסגה בזכות עקביות אנושית ודלת לדלת, גם בלי CRM ומערכות מסודרות.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=KK0Fc3P7eVY",
+   "spotify": "https://open.spotify.com/episode/18NSXqhJIsyd2cLwVl6HYk",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896899983"
+  },
+  "quotes": [
+   {
+    "text": "Never make it about you. The deal is not about you.",
+    "speaker": "האורח (אנריקו)"
+   },
+   {
+    "text": "Not every transaction is going to end in hugs.",
+    "speaker": "האורח (אנריקו)"
+   },
+   {
+    "text": "The limits that we set in our own mind are the limits that we're going to be faced with.",
+    "speaker": "האורח (אנריקו)"
+   },
+   {
+    "text": "Don't count on them. Tell them, make yourself known to them, but don't count on them. You want business from strangers.",
+    "speaker": "האורח (אנריקו)"
+   },
+   {
+    "text": "I doorknock and I love door knocking because like I said when I was 12 years old I was knocking doors and selling chocolate.",
+    "speaker": "האורח (אנריקו)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 3,
+    "leader": 1,
+    "numbers_person": 0,
+    "strong_mind": 3,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 0,
+    "starter": 1,
+    "veteran_leap": 3
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 0,
+    "personal_story": 3,
+    "tools": 1
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": -1,
+   "world": {
+    "business": 1,
+    "head_field": 3,
+    "money": 0,
+    "sales": 1
+   },
+   "pains": [
+    "rejection_stings",
+    "no_system",
+    "field_presence"
+   ],
+   "guest_kind": "top_agent"
+  },
+  "perf": {
+   "retention": 11.12,
+   "views": 60
+  }
+ },
+ {
+  "id": "remax_yaki_001",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 1,
+  "guest": "חנניה דנינו",
+  "title": "משירות בתי הסוהר לייעוץ משכנתאות עם חנניה דנינו",
+  "guest_line": "זכיין רשת מאני, שאחרי 20 שנה בשירות בתי הסוהר עבר לייעוץ משכנתאות עצמאי, אחרי שקנה שתי דירות בעצמו וגילה שהוא אוהב את התחום.",
+  "hook": "מ-20 שנה בשירות בתי הסוהר לייעוץ משכנתאות - סיפור על שירות שלא מוותר.",
+  "why": "כדי להבין איך לצאת מגדר הרגיל בשירות, לתמחר בביטחון ולהפוך לקוחות לשגרירים הכי חזקים שלך",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=3TVeaCRayRc",
+   "spotify": "https://open.spotify.com/episode/3hUJXpNf4mGD9WxFHY7hSA",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "אני לא זורק אחריות על אף אחד. אם יש משהו שלמדתי בחיים זה לקחת אחריות",
+    "speaker": "חנניה"
+   },
+   {
+    "text": "אני מתמחר מראש ככה כי זה ביטחון... אני יודע בדיוק מה אני הולך לתת לך",
+    "speaker": "חנניה"
+   },
+   {
+    "text": "אבא שלי, זיכרונו לברכה, היה אומר לי, תמיד תלך עם היד פתוחה... אתה לא תאבד שקל, אבל אתה גם לא תתפוס",
+    "speaker": "חנניה"
+   },
+   {
+    "text": "הסיפוק הכי גדול שלי מהעבודה הזאתי, זה לא השכר טרחה. זה כשאני רואה ביקורת עליי בדף העסקי שלי בגוגל",
+    "speaker": "חנניה"
+   },
+   {
+    "text": "אם ה-AI יודע לפתור משברים כאלה, סבבה, לך עם ה-AI. אני לא רואה את זה קורה",
+    "speaker": "חנניה"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 2,
+    "leader": 0,
+    "numbers_person": 2,
+    "strong_mind": 3,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 1,
+    "starter": 3,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 1,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 1,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": -1,
+   "world": {
+    "business": 2,
+    "head_field": 2,
+    "money": 3,
+    "sales": 2
+   },
+   "pains": [
+    "career_entry",
+    "fee_objection",
+    "financing"
+   ],
+   "guest_kind": "bank_or_advisor"
+  },
+  "perf": {
+   "retention": 11.85,
+   "views": 173
+  }
+ },
+ {
+  "id": "remax_yaki_002",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 2,
+  "guest": "ניצן רסקין",
+  "title": "הבידוד שהוליד רשת: ניצן רסקין על הדרך לבניית מאני",
+  "guest_line": "מנכ\"ל ובעלים של מאני ישראל, שגדל בתוך רימקס והפך את עסק המשכנתאות לרשת זכיינית.",
+  "hook": "הגיע הזמן להפוך את המקצוע שלך לעסק: עם פוקוס, אוויר, התמדה ואומץ להגיד גם לא.",
+  "why": "אם אתה רוצה להפסיק לעבוד מהצד ולהפוך את המקצוע לעסק עצמאי אמיתי עם פוקוס ותהליכים.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=dbzyvvPwciU",
+   "spotify": "https://open.spotify.com/episode/4FhOu2luM32QOMLWqGffCG",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "אתה לא יכול להיות חצי רופא. אתה לא יכול להיות חצי שחקן כדורגל.",
+    "speaker": "ניצן רסקין"
+   },
+   {
+    "text": "אנחנו מוכרים חזון, אנחנו מוכרים הצלחה.",
+    "speaker": "ניצן רסקין"
+   },
+   {
+    "text": "AI לא יחליף אותנו. הוא יחליף את מי שלא משתמש ב-AI.",
+    "speaker": "ניצן רסקין"
+   },
+   {
+    "text": "ומי שיגיע אחרי שיגמר החודש הזה והגיע על הרגליים, ולא התחבא מאחור בבונקר שלו.",
+    "speaker": "ניצן רסקין"
+   },
+   {
+    "text": "זה שהבנק מאשר, זה לא בהכרח שזה מה שנכון.",
+    "speaker": "ניצן רסקין"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 1,
+    "leader": 2,
+    "numbers_person": 1,
+    "strong_mind": 2,
+    "system_builder": 3
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 2,
+    "starter": 2,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 1,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 3,
+    "light_funny": 1
+   },
+   "hh": 0,
+   "world": {
+    "business": 3,
+    "head_field": 1,
+    "money": 2,
+    "sales": 1
+   },
+   "pains": [
+    "career_entry",
+    "all_on_me",
+    "financing",
+    "no_system"
+   ],
+   "guest_kind": "founder_or_exec"
+  },
+  "perf": {
+   "retention": 10.93,
+   "views": 102
+  }
+ },
+ {
+  "id": "remax_yaki_003",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 3,
+  "guest": "סולו",
+  "title": "סודות המשכנתא ומימון נדל\"ן",
+  "guest_line": "פרק סולו שבו יקי עושה סדר במימון נדל״ן, אחוזי מימון והתנהלות אשראית.",
+  "hook": "לפני שהלקוח חותם, תלמד איפה המשכנתה עלולה להפיל את העסקה.",
+  "why": "כדי שתדע לבדוק את המוכנות המימונית של הלקוח ולמנוע הפתעות במשכנתה רגע לפני חתימה",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=CVcD1r_yWUw",
+   "spotify": "https://open.spotify.com/episode/6Mmm4h7QExhQ9B4k51GTgA",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "הבנק הוא שותף איתנו בעסקה",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "הבנק תמיד הולך לפי הנמוך מביניהם, לפי החוזה והשמאות",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "ככל שאני מביא פחות כסף מהבית, ואני לוקח יותר מימון מהבנק, הדבר הזה בעצם מעלה את רמת הסיכון של הבנק",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "אחד מהדברים הכי חשובים אם לא הכי חשוב במסע ומתן זה להפעיל איפה נקודות הפתיחה היותר טובות",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "להיכנס לעסקה שאתם בדיוק עם ההון העצמי, וחלילה ונכס יהיו הפרשי שווי, אתם תתחילו לחפש את עצמכם",
+    "speaker": "המנחה"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 0,
+    "leader": 0,
+    "numbers_person": 3,
+    "strong_mind": 0,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 2,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 3,
+    "personal_story": 0,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 1,
+    "inspiring": 0,
+    "light_funny": 0
+   },
+   "hh": 2,
+   "world": {
+    "business": 0,
+    "head_field": 0,
+    "money": 3,
+    "sales": 1
+   },
+   "pains": [
+    "financing"
+   ],
+   "guest_kind": "bank_or_advisor"
+  },
+  "perf": {
+   "retention": 14.61,
+   "views": 123
+  }
+ },
+ {
+  "id": "remax_yaki_004",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 4,
+  "guest": "אמיר שפיגל",
+  "title": "משכנתא זה קודם כל שקט נפשי עם אמיר שפיגל",
+  "guest_line": "זכיין מאני בקריית אונו, לשעבר 20 שנה בכיר במערכת הבנקאית ובשוק ההון (תעודות סל, ניהול סיכונים, סיטי בנק, HSBC), כיום יועץ משכנתאות עצמאי שנה וחצי.",
+  "hook": "התפקיד שלי הוא לא למכור לך משכנתא - הוא למכור אותך לבנק.",
+  "why": "תלמד איך המערכת הבנקאית חושבת באמת, ותהפוך את המשכנתה מקופסה שחורה לשקט נפשי בעסקה",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=Y2WMKdd2-dQ",
+   "spotify": "https://open.spotify.com/episode/6YG6gFXMJTzfBe8An0xr7R",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "התפקיד שלי זה לא למכור לכם משכנתא, אני לא מוכר משכנתא, התפקיד שלי זה למכור אתכם לבנק.",
+    "speaker": "האורח (אמיר)"
+   },
+   {
+    "text": "אני לא תופס דגים, אני בונה רשת.",
+    "speaker": "האורח (אמיר)"
+   },
+   {
+    "text": "הדבר הראשון שאני נותן לך זה שקט. הדבר השני שאני נותן לך זה ביטחון.",
+    "speaker": "האורח (אמיר)"
+   },
+   {
+    "text": "אם ההצעה שקיבלתי היא הצעה טובה, אני אגיד לו שההצעה טובה. אני בחיים לא אגיד לו שההצעה טובה אם ההצעה היא רק בסדר.",
+    "speaker": "האורח (אמיר)"
+   },
+   {
+    "text": "קרה לי לא פעם ולא פעמיים שהורדתי לקוח מעסקה. זה כאילו נוגד את האינטרס שלי, כי האינטרס שלי זה לכאורה למכור לו משכנתא.",
+    "speaker": "האורח (אמיר)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 0,
+    "leader": 0,
+    "numbers_person": 3,
+    "strong_mind": 1,
+    "system_builder": 2
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 1,
+    "starter": 2,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 1,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 1,
+    "light_funny": 1
+   },
+   "hh": -1,
+   "world": {
+    "business": 2,
+    "head_field": 1,
+    "money": 3,
+    "sales": 1
+   },
+   "pains": [
+    "financing",
+    "career_entry"
+   ],
+   "guest_kind": "bank_or_advisor"
+  },
+  "perf": {
+   "retention": 15.24,
+   "views": 110
+  }
+ },
+ {
+  "id": "remax_yaki_005",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 5,
+  "guest": "סולו",
+  "title": "הרעיון הוא לייצר כסף מכסף",
+  "guest_line": "יקי מסביר לבד איך בנקים בודקים הכנסה, התחייבויות, ביטוחים ויכולת לקבל משכנתה.",
+  "hook": "לפני שאתה אומר ללקוח שאין לו סיכוי, בדוק כמה הכנסה הבנק עוד יכול לראות.",
+  "why": "תלמד איך לחשב יכולת החזר, לזהות הכנסות נוספות ולהציל עסקאות שהסתבכו בבנק",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=MHha6Dkccog",
+   "spotify": "https://open.spotify.com/episode/363t4aijKvrFyCGxzEDWZI",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "לא צריך לוותר על העסקה, אבל מה שכן צריך קצת להפעיל את השכל שחושב במוח ולהבין רגע איך כן אני יכול לאשר את זה",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "אתם מבקשים מהשמאי שיעריך לכם דמי השכירות הראויים, תזכרו את המשפט הזה",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "אני דווקא לא מאמין בהחזר חודשי גבוהה למשכנתה, אלא אני מאמין בהחזר חודשי נמוך על המשכנתה",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "כל בעל עסק, דרך אגב בין אם הוא עוסק פטור, בין אם הוא עוסק מורשה, אפשר להכיר בהכנסות האלה",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "אם העבודה שלך זה מילואים, לא ניתן. אם אתה עובד במקום אחר והוצאת למילואים, אז ניתן",
+    "speaker": "המנחה"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 0,
+    "leader": 0,
+    "numbers_person": 3,
+    "strong_mind": 0,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 1,
+    "starter": 3,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 1,
+    "numbers": 3,
+    "personal_story": 0,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 1,
+    "light_funny": 0
+   },
+   "hh": 2,
+   "world": {
+    "business": 0,
+    "head_field": 0,
+    "money": 3,
+    "sales": 1
+   },
+   "pains": [
+    "financing"
+   ],
+   "guest_kind": "bank_or_advisor"
+  },
+  "perf": {
+   "retention": 13.07,
+   "views": 119
+  }
+ },
+ {
+  "id": "remax_yaki_006",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 6,
+  "guest": "סולו",
+  "title": "כסף זה לא הבעיה, זה הפתרון",
+  "guest_line": "פרק סולו של יקי אברמוב, יועץ משכנתאות ושמאי, על בדיקת נכס וגיוס הון עצמי.",
+  "hook": "לפני שאתה חותם על דירה, תבדוק מה באמת רשום — ואיפה נמצא ההון העצמי הזול שלך.",
+  "why": "כדי שתדע איך לבדוק נסח טאבו, לאמת שווי ולגייס הון עצמי זול לפני חתימה",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=Q_1zEI7dyvg",
+   "spotify": "https://open.spotify.com/episode/0Acu4VGGTzdEOLwVWqBTZ2",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "אני לא מבין אנשים שעושים שמאות רק אחרי חתימת חוזה.",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "כשאתם קונים נכס יש לנכס שלכם תעודת זהות. זה נסח טאבו.",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "זה שהנכס רשום בבית משותף לא בהחלט אומר שהוא תקין.",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "אל תהיו תלויים בקבלן, כל רכישה שאתם עושים תצלמו את תשריטי המכר.",
+    "speaker": "המנחה"
+   },
+   {
+    "text": "השכן שלכם אחר זה לא אומר שזה השווי.",
+    "speaker": "המנחה"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 0,
+    "leader": 0,
+    "numbers_person": 3,
+    "strong_mind": 0,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 0,
+    "starter": 3,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 2,
+    "personal_story": 1,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 1,
+    "light_funny": 0
+   },
+   "hh": 2,
+   "world": {
+    "business": 0,
+    "head_field": 0,
+    "money": 3,
+    "sales": 0
+   },
+   "pains": [
+    "financing",
+    "unrealistic_price"
+   ],
+   "guest_kind": "bank_or_advisor"
+  },
+  "perf": {
+   "retention": 15.55,
+   "views": 64
+  }
+ },
+ {
+  "id": "remax_yaki_007",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 7,
+  "guest": "רינת חצבני",
+  "title": "אדון לעצמי אבל ממש לא לבד עם רינת חצבני",
+  "guest_line": "רינת חצבני - יועצת משכנתאות עצמאית וזכיינית ברשת מאני, לשעבר למעלה מ-20 שנה מנהלת פרויקטים וטכנולוגיה בכירה בבנק לאומי, שעברה שינוי קריירה מלא אחרי ה-7 באוקטובר.",
+  "hook": "יועצת המשכנתאות שמצילה עסקאות תקועות - ומסבירה למה עדיף עכשיו לקנות.",
+  "why": "תלמד איך יועץ משכנתאות ושמאות מוקדמת יכולים להציל לך עסקאות מורכבות שעומדות ליפול בבנק.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=DDVN97GKg8g",
+   "spotify": "https://open.spotify.com/episode/4PUZrKFHtRk1tJSnKFod16",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "הכל אפשר לעשות לבד. השאלה, מה תהיה התוצאה?",
+    "speaker": "רינת חצבני (האורחת)"
+   },
+   {
+    "text": "לכו תעשו שמאות מוקדמת, כי בסוף העסקה הזאת... יכולה להציל אתכם מלהכניס ראש בריא למיטה חולה.",
+    "speaker": "רינת חצבני (האורחת)"
+   },
+   {
+    "text": "כשאתה מקים עסק ואתה לבד, זו בדידות, ממש בדידות, אתה לבד.",
+    "speaker": "רינת חצבני (האורחת)"
+   },
+   {
+    "text": "אני מאוד-מאוד אוהבת מספרים... המספרים אצלי רצים בראש.",
+    "speaker": "רינת חצבני (האורחת)"
+   },
+   {
+    "text": "אני פוגשת אנשים שמבקשים אישור עיקרוני, וסתם הרבה אנשים בכלל לא יודעים מה נטו שלהם.",
+    "speaker": "רינת חצבני (האורחת)"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 0,
+    "leader": 0,
+    "numbers_person": 3,
+    "strong_mind": 1,
+    "system_builder": 1
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 1,
+    "starter": 1,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 3,
+    "personal_story": 2,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 1,
+    "light_funny": 0
+   },
+   "hh": 1,
+   "world": {
+    "business": 1,
+    "head_field": 0,
+    "money": 3,
+    "sales": 0
+   },
+   "pains": [
+    "financing",
+    "career_entry"
+   ],
+   "guest_kind": "bank_or_advisor"
+  },
+  "perf": {
+   "retention": 13.02,
+   "views": 93
+  }
+ },
+ {
+  "id": "remax_yaki_008",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 8,
+  "guest": "איתי אהרוני",
+  "title": "ההכנה היא הדבר הכי חשוב עם איתי אהרוני",
+  "guest_line": "זכיין ויועץ משכנתאות ממודיעין, שמביא לעסק שלו חשיבה צבאית, הכנה קפדנית ואובססיה להסביר ללקוח בדיוק על מה הוא חותם.",
+  "hook": "איך להפוך הכנה, התמדה וקצת חוסן מנטלי לעסק שאנשים סומכים עליו.",
+  "why": "תקבל כאן שיטה להפוך הכנה, תרגול וחוסן מנטלי לעסק יציב שלא נשען על אלתור",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=k3mWj-pFkiA",
+   "spotify": "https://open.spotify.com/episode/7zKw32tjBafIECPzIRXH04",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "הבן אדם שאתה מדבר איתו עכשיו בטלפון לא מעניין אותו שהשמונים הראשונים אמרו לך לא.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אל תחכה להגיע לצוק ואז להגיד יאללה איך הגעתי לצוק?",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אני לא רוצה למכור לך כלום אחי, בא לי לשמור עליך באיזשהו מקום.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "ההצלחה זה לגור בבית ולחיות בו, זה לשמר את הזוגיות, זה לעבוד עליה.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אם הייתי צריך להסביר לילד בכיתה א', מה זה משכנתא? מה זה צמוד לא צמוד?",
+    "speaker": "האורח"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 1,
+    "leader": 1,
+    "numbers_person": 2,
+    "strong_mind": 3,
+    "system_builder": 2
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 1,
+    "starter": 2,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 1,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 2,
+    "light_funny": 1
+   },
+   "hh": 0,
+   "world": {
+    "business": 3,
+    "head_field": 2,
+    "money": 2,
+    "sales": 1
+   },
+   "pains": [
+    "no_system",
+    "financing",
+    "career_entry"
+   ],
+   "guest_kind": "bank_or_advisor"
+  },
+  "perf": {
+   "retention": 12.79,
+   "views": 100
+  }
+ },
+ {
+  "id": "remax_yaki_009",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 9,
+  "guest": "דורון בן יוסף",
+  "title": "להב״ל - לעשות הרבה בלי לחשוב עם דורון בן יוסף",
+  "guest_line": "זכיין רימקס באשדוד, יועץ משכנתאות ומנהל צוות יועצים, שמחבר בין ביטחון, כלכלה וניהול עסקי.",
+  "hook": "המקצוע שלך לא תקוע — אולי פשוט הפסקת לעשות את הפעולות שמביאות את התוצאה.",
+  "why": "כדי להפסיק לחשוב יותר מדי ולהפוך את היעדים שלך לתוכנית פעולות עקבית שמייצרת עסק אמיתי",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=O1RFWBj0gc0",
+   "spotify": "https://open.spotify.com/episode/3jID30zhsUNmaKKh3PoTAQ",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "אם העסק שלך לא יודע לשווק ולמכור, לא יהיה לך עסק, אתה תהיה עוסק.",
+    "speaker": "דורון בן יוסף"
+   },
+   {
+    "text": "החיים הם לא יקרים והפוזה יקרה.",
+    "speaker": "דורון בן יוסף"
+   },
+   {
+    "text": "אנשים קונים דברים שהם לא צריכים בכסף שאין להם כדי להרשים אנשים שלא אכפת להם.",
+    "speaker": "דורון בן יוסף"
+   },
+   {
+    "text": "כשאתה יוצא בבוקר לעבודה, אתה מוכוון עבודה.",
+    "speaker": "דורון בן יוסף"
+   },
+   {
+    "text": "אנחנו משווקים ערך.",
+    "speaker": "דורון בן יוסף"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 1,
+    "leader": 1,
+    "numbers_person": 2,
+    "strong_mind": 2,
+    "system_builder": 3
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 2,
+    "starter": 1,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 2,
+    "personal_story": 2,
+    "tools": 3
+   },
+   "tone": {
+    "direct_tough": 3,
+    "inspiring": 1,
+    "light_funny": 0
+   },
+   "hh": 1,
+   "world": {
+    "business": 3,
+    "head_field": 1,
+    "money": 2,
+    "sales": 2
+   },
+   "pains": [
+    "no_system",
+    "financing",
+    "rejection_stings",
+    "all_on_me"
+   ],
+   "guest_kind": "bank_or_advisor"
+  },
+  "perf": {
+   "retention": 11.79,
+   "views": 58
+  }
+ },
+ {
+  "id": "remax_yaki_010",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 10,
+  "guest": "סולו מחיר למשתכן",
+  "title": "כל הסודות של מחיר למשתכן ורכישה מקבלן",
+  "guest_line": "פרק סולו - יקי לבד מול המיקרופון, מרצה ולא מראיין.",
+  "hook": "כל הסודות של מחיר למשתכן ורכישה מקבלן - במספרים, בלי בלבול.",
+  "why": "כדי שתדע בדיוק איך עובד מימון במחיר למשתכן ותיתן ללקוחות תשובות מספריות מדויקות במקום ניחושים",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=Z3hkAzUEzfg",
+   "spotify": "https://open.spotify.com/episode/6XtfjOxJa31IxtfnGnskOG",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "הרבה אנשים חושבים שהם צריכים להביא 10% אחוזים הון עצמי, וזה לא נכון, חבר'ה זה לא נכון",
+    "speaker": "יקי"
+   },
+   {
+    "text": "הבעיה העיקרית במדינתנו זה להביא את ההון העצמי לרכישת דירה",
+    "speaker": "יקי"
+   },
+   {
+    "text": "אני לא מכיר בן אדם בעולם הזה שהיה מוכן לוותר על רווח של מיליון או מיליון וחצי",
+    "speaker": "יקי"
+   },
+   {
+    "text": "יאקי יש לי על המשכנתה פריים מינוס שתיים וחצי",
+    "speaker": "סטודנט לשעבר (מצוטט ע\"י יקי)"
+   },
+   {
+    "text": "כשאתה יושב קרוב לצלחת או בעצם כשאתה בצלחת אפשר לעשות הרבה מאוד דברים",
+    "speaker": "יקי"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 0,
+    "leader": 0,
+    "numbers_person": 3,
+    "strong_mind": 0,
+    "system_builder": 0
+   },
+   "stage": {
+    "builder": 2,
+    "manages_people": 1,
+    "starter": 2,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 3,
+    "personal_story": 1,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 1,
+    "light_funny": 0
+   },
+   "hh": 2,
+   "world": {
+    "business": 0,
+    "head_field": 0,
+    "money": 3,
+    "sales": 1
+   },
+   "pains": [
+    "financing"
+   ],
+   "guest_kind": "other"
+  },
+  "perf": {
+   "retention": 15.4,
+   "views": 95
+  }
+ },
+ {
+  "id": "remax_yaki_011",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 11,
+  "guest": "שולי",
+  "title": "סודות המשכנתא במגזר החרדי עם שולי גיטלמן",
+  "guest_line": "שולי גיטלמן, יועץ משכנתאות שמתמחה בניתוח אשראי, תיקים מורכבים ועבודה עם הציבור החרדי.",
+  "hook": "איך יודעים אם עסקת משכנתא באמת מקדמת את הלקוח — ומתי צריך לעצור אותה?",
+  "why": "תקבל שיטה ברורה לבניית תיק מימון, תלמד להקדים שאלות של בנקאים ותדע מתי לעצור עסקה מסוכנת.",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=S0V-CL8YB4c",
+   "spotify": "https://open.spotify.com/episode/2HsIE6dvy0ZZXDFoMvBGA0",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "אני מעדיף שאתה תקלל אותי היום מאשר שתקלל אותי כשתגיע לדיפול בעוד שנתיים.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "ככל שיהיה לבנקאי כמה שפחות עבודה, הוא ישמח לעבוד איתך.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "בסופו של דבר אף אחד לא חייב לנו כלום.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "אתה צריך להפוך עולמות כדי להביא את המסמך הזה כי זה מה שטוב ללקוח.",
+    "speaker": "האורח"
+   },
+   {
+    "text": "הדבר האחרון שאתה רוצה בתיק, כמו שהזכרת מקודם בסיפור, זה הפתעות.",
+    "speaker": "האורח"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 0,
+    "field_fighter": 0,
+    "leader": 0,
+    "numbers_person": 3,
+    "strong_mind": 1,
+    "system_builder": 2
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 1,
+    "veteran_leap": 1
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 3,
+    "personal_story": 2,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 3,
+    "inspiring": 1,
+    "light_funny": 0
+   },
+   "hh": 1,
+   "world": {
+    "business": 1,
+    "head_field": 0,
+    "money": 3,
+    "sales": 1
+   },
+   "pains": [
+    "financing",
+    "buyer_filtering",
+    "no_system"
+   ],
+   "guest_kind": "bank_or_advisor"
+  },
+  "perf": {
+   "retention": 17.32,
+   "views": 74
+  }
+ },
+ {
+  "id": "remax_yaki_012",
+  "client_id": "remax_yaki",
+  "show": "המבוגר האחראי",
+  "host": "יקי",
+  "ep": 12,
+  "guest": "אולג וולך",
+  "title": "מה יועצי משכנתאות ותיקים מפספסים עם אולג וולוך",
+  "guest_line": "יועץ משכנתאות ותיק, זכיין מרשת מאני, שפועל בכל הארץ ומתמחה גם בלקוחות דוברי רוסית.",
+  "hook": "המשכנתא לא נגמרת בריבית: היא נגמרת רק כשהלקוח מקבל את המפתח.",
+  "why": "כדי להבין איך ליווי מלא עד המפתח ובדיקת ביטחונות הופכים אותך ליועץ מקצועי שהלקוחות סומכים עליו",
+  "links": {
+   "youtube": "https://www.youtube.com/watch?v=BaZG4WLyv-c",
+   "spotify": "https://open.spotify.com/episode/4c916yziPDM7u9rEolICi2",
+   "apple": "https://podcasts.apple.com/il/podcast/id1896900023"
+  },
+  "quotes": [
+   {
+    "text": "המשכנתא לא נגמרת ברגע שהוצאנו אישור עקרוני וסגרנו את הריביות.",
+    "speaker": "אולג וולך"
+   },
+   {
+    "text": "אתם עושים דברים נפלאים, תשווקו אותם. לשווק זה לא מילה גסה.",
+    "speaker": "יקי"
+   },
+   {
+    "text": "אני אוהב פגישות פיזיות בארבע העיניים מול אנשים, למרות שעכשיו עם טכנולוגיה יש גם זום.",
+    "speaker": "אולג וולך"
+   },
+   {
+    "text": "אני לא מבין את היועץ שמשחרר בחתימות אלף, זה הפיק.",
+    "speaker": "אולג וולך"
+   },
+   {
+    "text": "אנשים פוחדים, ואז כשהם נמצאים איתך אתה לא מבין את היועץ שמשחרר בחתימות.",
+    "speaker": "אולג וולך"
+   }
+  ],
+  "axes": {
+   "type": {
+    "closer": 1,
+    "field_fighter": 1,
+    "leader": 0,
+    "numbers_person": 3,
+    "strong_mind": 1,
+    "system_builder": 2
+   },
+   "stage": {
+    "builder": 3,
+    "manages_people": 0,
+    "starter": 2,
+    "veteran_leap": 2
+   },
+   "style": {
+    "live_demo": 0,
+    "numbers": 2,
+    "personal_story": 3,
+    "tools": 2
+   },
+   "tone": {
+    "direct_tough": 2,
+    "inspiring": 2,
+    "light_funny": 0
+   },
+   "hh": 1,
+   "world": {
+    "business": 2,
+    "head_field": 1,
+    "money": 3,
+    "sales": 1
+   },
+   "pains": [
+    "financing",
+    "no_system"
+   ],
+   "guest_kind": "bank_or_advisor"
+  },
+  "perf": {
+   "retention": 9.5,
+   "views": 114
+  }
+ }
+]

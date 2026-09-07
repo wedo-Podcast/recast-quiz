@@ -1,0 +1,20 @@
+{
+ "_note": "Hand-authored show meta. Apple IDs from iTunes Search API (06.09.2026); הפיצוח has two identical Apple listings (1896933326, 6780794157) on the same feed — the one from the original batch is used.",
+ "remax_natasha": {"name": "אוויר פסגות", "host": "נטשה", "color": "#003DA5",
+   "youtube": "https://www.youtube.com/playlist?list=PLwAe9SbGWHKHu_pGkw5pPMlIFmQEXwCAu",
+   "spotify_show": "https://open.spotify.com/show/5Q9rlvyHqVDQFTVswKZbdP",
+   "apple_show": "https://podcasts.apple.com/il/podcast/id1896899983"},
+ "remax_gil": {"name": "הפיצוח", "host": "גיל", "color": "#DC1C2E",
+   "youtube": "https://www.youtube.com/playlist?list=PLwAe9SbGWHKFXYfKG7jZMtgcI5EDt0lKw",
+   "spotify_show": "https://open.spotify.com/show/1S55LE7QsPvmy6pnoZaocJ",
+   "apple_show": "https://podcasts.apple.com/il/podcast/id1896933326"},
+ "remax_carmit": {"name": "סוגרים עסקה", "host": "כרמית", "color": "#0B2A5B",
+   "youtube": "https://www.youtube.com/playlist?list=PLwAe9SbGWHKG3Y1pPS0v3rZqDtnm7y2Qc",
+   "spotify_show": "https://open.spotify.com/show/6OKQWup1dMFHoDyG7lS9Cl",
+   "apple_show": "https://podcasts.apple.com/il/podcast/id1896933276"},
+ "remax_yaki": {"name": "המבוגר האחראי", "host": "יקי", "color": "#8A1620",
+   "youtube": "https://www.youtube.com/playlist?list=PLwAe9SbGWHKGraHW0fcAhKSlzwO4HrH7u",
+   "spotify_show": "https://open.spotify.com/show/2ONjBPV3ZARocRhwmLT25m",
+   "apple_show": "https://podcasts.apple.com/il/podcast/id1896900023"},
+ "channel": "https://www.youtube.com/@remaxisrael"
+}

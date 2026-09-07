@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#DC1C2E">
+<title>לכל אחד יש מה לשמוע ברימקס</title>
+<meta property="og:title" content="לכל אחד יש מה לשמוע ברימקס">
+<meta property="og:description" content="8 שאלות, 45 שניות, והפרק שמתאים בדיוק לך מהפודקאסטים של רימקס ישראל.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="re">RE/MAX</span><span class="x">×</span><span class="wedo">WeDo</span></div>
+  <div class="progress" id="progress" hidden></div>
+</header>
+
+<main id="app">
+  <section class="screen" id="s-intro">
+    <div class="hero">
+      <div class="kicker">הפודקאסטים של רימקס ישראל</div>
+      <h1>לכל אחד<br>יש מה לשמוע<br>ברימקס</h1>
+      <p class="sub">שמונה שאלות, פחות מדקה, והפרק שמתאים בדיוק לך.</p>
+      <button class="btn primary" id="btn-start">יאללה, מתחילים</button>
+      <div class="tiny" id="intro-meta"></div>
+    </div>
+  </section>
+
+  <section class="screen" id="s-name" hidden>
+    <div class="q-wrap">
+      <div class="q-num">לפני שמתחילים</div>
+      <h2>איך קוראים לך?</h2>
+      <input id="name" class="input" type="text" inputmode="text" autocomplete="given-name" placeholder="השם הפרטי שלך" maxlength="30">
+      <button class="btn primary" id="btn-name">ממשיכים</button>
+    </div>
+  </section>
+
+  <section class="screen" id="s-q" hidden>
+    <div class="q-wrap">
+      <div class="q-num" id="q-num"></div>
+      <div class="q-lead" id="q-lead" hidden></div>
+      <h2 id="q-text"></h2>
+      <div class="options" id="options"></div>
+      <button class="link" id="btn-back">חזרה</button>
+    </div>
+  </section>
+
+  <section class="screen" id="s-result" hidden>
+    <article class="card" id="card"></article>
+    <div class="actions">
+      <button class="btn primary" id="btn-share">לשתף לשולחן</button>
+      <button class="btn ghost" id="btn-another">לא זה? עוד פרק בשבילי</button>
+      <button class="link" id="btn-restart">מהתחלה</button>
+    </div>
+    <footer class="foot">הפודקאסטים של רימקס ישראל מופקים על ידי WeDo · <span id="foot-meta"></span></footer>
+  </section>
+</main>
+<div class="toast" id="toast" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>
