@@ -8,8 +8,12 @@ html,body{margin:0;background:var(--bg);color:var(--ink);-webkit-font-smoothing:
 body{min-height:100dvh;display:flex;flex-direction:column}
 button{font:inherit;cursor:pointer}
 .top{display:flex;align-items:center;justify-content:space-between;padding:14px 18px 8px;border-top:6px solid var(--red)}
-.brand{font-weight:900;letter-spacing:.02em;font-size:15px;display:flex;gap:8px;align-items:baseline;direction:ltr}
-.brand .re{color:var(--red)} .brand .x{color:var(--muted);font-weight:400} .brand .wedo{color:var(--blue)}
+.brand{display:flex;gap:12px;align-items:center;direction:ltr}
+.brand .logo{display:inline-flex;align-items:center;gap:6px;text-decoration:none}
+.brand .balloon{height:30px;width:auto}
+.brand .word{height:13px;width:auto}
+.brand .wedo img{height:34px;width:auto;margin:-8px 0}
+.brand .x{color:var(--muted);font-weight:400;font-size:14px}
 .progress{display:flex;gap:5px}
 .progress i{width:14px;height:5px;border-radius:3px;background:var(--line)}
 .progress i.on{background:var(--red)} .progress i.done{background:var(--blue)}

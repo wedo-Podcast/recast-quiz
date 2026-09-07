@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 132" width="100" height="132" role="img" aria-label="RE/MAX">
+  <defs>
+    <clipPath id="env"><path d="M50 3C78 3 96 25 96 50C96 75 68 93 50 112C32 93 4 75 4 50C4 25 22 3 50 3Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#env)">
+    <rect x="0" y="0" width="100" height="44" fill="#DC1C2E"/>
+    <rect x="0" y="44" width="100" height="27" fill="#FFFFFF"/>
+    <rect x="0" y="71" width="100" height="45" fill="#003DA5"/>
+    <g fill="none" stroke="#000" stroke-opacity=".12" stroke-width="1.2">
+      <path d="M50 3V112"/><path d="M32 6C22 40 28 80 50 112"/><path d="M68 6C78 40 72 80 50 112"/>
+      <path d="M16 18C10 45 24 85 50 112"/><path d="M84 18C90 45 76 85 50 112"/>
+    </g>
+    <path d="M0 43.5Q50 40 100 43.5V45Q50 41.5 0 45Z" fill="#DC1C2E"/>
+    <path d="M0 70.5Q50 67 100 70.5V72Q50 68.5 0 72Z" fill="#FFFFFF"/>
+  </g>
+  <path d="M50 3C78 3 96 25 96 50C96 75 68 93 50 112C32 93 4 75 4 50C4 25 22 3 50 3Z" fill="none" stroke="#0B2A5B" stroke-opacity=".18" stroke-width="1"/>
+  <path d="M46 112L44 121M54 112L56 121" stroke="#4A4A4A" stroke-width="1.4"/>
+  <path d="M41 121H59L57 130H43Z" fill="#5A5A5A"/>
+</svg>
