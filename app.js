@@ -5,7 +5,7 @@
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-  const state = { quiz: null, episodes: [], shows: {}, name: '', answers: [], world: null, qi: 0, pool: [], pick: 0, seed: 0 };
+  const state = { quiz: null, episodes: [], shows: {}, name: '', fem: false, answers: [], world: null, qi: 0, pool: [], pick: 0, seed: 0 };
 
   // ---------- scoring (mirror of simulate_balance.py option_score / rank) ----------
   function optionScore(o, ep) {
@@ -125,10 +125,11 @@
     const ic = (id) => `<svg class="i f"><use href="#${id}"/></svg>`;
     $('card').innerHTML = `
       <div class="band">
-        <div class="hello">${esc(state.name)}, אתה</div>
-        <div class="type">${esc(t.name)}</div>
-        <div class="typeline">${esc(t.line)}</div>
+        <div class="hello">${esc(state.name)}, ${state.fem ? 'את' : 'אתה'}</div>
+        <div class="type">${esc(state.fem ? t.name_f || t.name : t.name)}</div>
+        <div class="typeline">${esc(state.fem ? t.line_f || t.line : t.line)}</div>
       </div>
+      ${ep.image ? `<div class="art"><img src="${esc(ep.image)}" alt="" loading="eager" decoding="async"></div>` : ''}
       <div class="body">
         <div class="ep-lbl">הפרק שלך הוא</div>
         <div class="chip">${esc(sh.name || ep.show)} · פרק ${ep.ep}</div>
@@ -142,7 +143,7 @@
         ${link('', ep.links.apple, `<span class="ic ap">${ic('i-ap')}</span>אפל`)}
       </div>
       <div class="follow">
-        <div class="lbl">עקוב אחרי ${esc(sh.name || ep.show)}:</div>
+        <div class="lbl">לעקוב אחרי ${esc(sh.name || ep.show)}:</div>
         <div class="row">${link('yt', sh.youtube, ic('i-yt') + 'יוטיוב')}${link('sp', sh.spotify_show, ic('i-sp') + 'ספוטיפיי')}${link('ap', sh.apple_show, ic('i-ap') + 'אפל')}</div>
       </div>`;
   }
@@ -156,18 +157,23 @@
   function toast(msg) { const t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(t._t); t._t = setTimeout(() => { t.hidden = true; }, 2200); }
   async function share() {
     const { ep } = state.pool[state.pick], t = state.quiz.types[state.type];
-    const text = `${state.name}, ${t.name}. הפרק שלי: „${ep.title}” (${ep.show}, פרק ${ep.ep} עם ${ep.guest}).`;
+    const text = `${state.name}, ${state.fem ? t.name_f || t.name : t.name}. הפרק שלי: „${ep.title}” (${ep.show}, פרק ${ep.ep} עם ${ep.guest}).`;
     try {
       if (navigator.share) { await navigator.share({ title: state.quiz.meta.title, text, url: location.href }); return; }
-      await navigator.clipboard.writeText(`${text}\n${location.href}`); toast('הועתק. צלם מסך ושתף לשולחן');
-    } catch (e) { toast('צלם מסך ושתף לשולחן'); }
+      await navigator.clipboard.writeText(`${text}\n${location.href}`); toast('הקישור הועתק. צילום מסך, ולשולחן');
+    } catch (e) { toast('צילום מסך, ולשולחן'); }
   }
   function restart() { state.answers = []; state.world = null; state.qi = 0; state.pool = []; show('s-name'); $('name').focus(); }
 
   // ---------- boot ----------
   function wire() {
-    $('btn-start').addEventListener('click', () => { if (!state.quiz) { toast('הפרקים עוד לא נטענו. נסה לרענן'); return; } show('s-name'); setTimeout(() => $('name').focus(), 50); });
-    $('btn-name').addEventListener('click', () => { state.name = $('name').value.trim() || 'חבר'; state.qi = 0; renderQuestion(); });
+    $('btn-start').addEventListener('click', () => { if (!state.quiz) { toast('הפרקים עוד לא נטענו. כדאי לרענן'); return; } show('s-name'); setTimeout(() => $('name').focus(), 50); });
+    $('btn-name').addEventListener('click', () => { state.name = $('name').value.trim() || (state.fem ? 'חברה' : 'חבר'); state.qi = 0; renderQuestion(); });
+    $('gender').addEventListener('click', (e) => {   // one optional tap; only the card changes (questions stay in the quiz's usual masculine)
+      const b = e.target.closest('button'); if (!b) return;
+      state.fem = b.dataset.g === 'f';
+      for (const x of $('gender').children) x.classList.toggle('on', x === b);
+    });
     $('name').addEventListener('keydown', (e) => { if (e.key === 'Enter') $('btn-name').click(); });
     $('options').addEventListener('click', (e) => { const b = e.target.closest('.opt'); if (b) answer(Number(b.dataset.i)); });
     $('btn-back').addEventListener('click', back);
@@ -183,7 +189,7 @@
       state.quiz = quiz; state.episodes = episodes.filter((e) => e.quotes && e.quotes.length); state.shows = shows;
       $('intro-meta').textContent = `${state.episodes.length} פרקים מארבע תוכניות`;
     } catch (e) {
-      $('intro-meta').textContent = 'לא הצלחנו לטעון את הפרקים. נסה לרענן.';
+      $('intro-meta').textContent = 'הפרקים לא נטענו. כדאי לרענן את הדף.';
       return;
     }
   }
