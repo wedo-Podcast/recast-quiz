@@ -120,7 +120,6 @@
   }
   function renderCard() {
     const { ep } = state.pool[state.pick], sh = state.shows[ep.client_id] || {}, t = state.quiz.types[state.type];
-    const bec = because(chosenOptions(), ep);
     const link = (cls, href, label) => `<a class="${cls}${href ? '' : ' off'}" href="${esc(href || '#')}" target="_blank" rel="noopener">${label}</a>`;
     const ic = (id) => `<svg class="i f"><use href="#${id}"/></svg>`;
     $('card').innerHTML = `
@@ -135,7 +134,6 @@
         <div class="chip">${esc(sh.name || ep.show)} · פרק ${ep.ep}</div>
         <div class="ep-title">${esc(ep.title)}</div>
         ${ep.why ? `<p class="why">${esc(ep.why)}</p>` : ''}
-        ${bec.length ? `<p class="because">כי אמרת ש${esc(bec[0])}${bec[1] ? ', וש' + esc(bec[1]) : ''}.</p>` : ''}
       </div>
       <div class="listen">
         ${link('', ep.links.youtube, `<span class="ic yt">${ic('i-yt')}</span>יוטיוב`)}
