@@ -46,6 +46,7 @@
     }).filter(Boolean);
   }
   function chosenOptions() { return state.answers.map((a) => a.option); }
+  function replay(el, cls) { el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); }   // restart a CSS animation
   function show(id) {
     // no scroll reset between screens: questions sit at a fixed height, so nothing jumps between taps
     if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
@@ -73,8 +74,9 @@
     $('q-num').textContent = `שאלה ${state.qi + 1} מתוך ${state.quiz.meta.per_person}`;
     const l = lead(q); $('q-lead').hidden = !l; $('q-lead').textContent = l;
     $('q-text').textContent = q.text;
-    $('options').innerHTML = q.options.map((o, i) => `<button class="opt" data-i="${i}"><span class="k">${'אבגד'[i]}.</span>${esc(o.label)}</button>`).join('');
+    $('options').innerHTML = q.options.map((o, i) => `<button class="opt" data-i="${i}"><span class="k">${'אבגד'[i]}</span><span class="t">${esc(o.label)}</span><svg class="i ok"><use href="#i-check"/></svg></button>`).join('');
     $('btn-back').hidden = state.qi === 0;
+    replay($('q-wrap'), 'in');   // the next question slides in from the left (forward, in RTL)
     show('s-q');
   }
   function answer(i) {
@@ -82,7 +84,8 @@
     state.answers = state.answers.slice(0, state.qi).concat([{ qid: q.id, option: o }]);
     if (q.selects_world) state.world = o.world;
     const btn = $('options').children[i]; btn.classList.add('picked');
-    setTimeout(() => { state.qi += 1; renderQuestion(); }, 160);
+    if (navigator.vibrate) navigator.vibrate(8);
+    setTimeout(() => { state.qi += 1; renderQuestion(); }, 260);
   }
   function back() {
     if (state.qi === 0) return;
@@ -111,6 +114,7 @@
     state.pool = pool; state.pick = state.seed % pool.length;
     state.type = personType(chosen);
     renderCard();
+    replay($('card'), 'reveal');
     $('progress').hidden = true;
     show('s-result');
   }
@@ -118,6 +122,7 @@
     const { ep } = state.pool[state.pick], sh = state.shows[ep.client_id] || {}, t = state.quiz.types[state.type];
     const bec = because(chosenOptions(), ep);
     const link = (cls, href, label) => `<a class="${cls}${href ? '' : ' off'}" href="${esc(href || '#')}" target="_blank" rel="noopener">${label}</a>`;
+    const ic = (id) => `<svg class="i f"><use href="#${id}"/></svg>`;
     $('card').innerHTML = `
       <div class="band">
         <div class="hello">${esc(state.name)}, אתה</div>
@@ -132,19 +137,20 @@
         ${bec.length ? `<p class="because">כי אמרת ש${esc(bec[0])}${bec[1] ? ', וש' + esc(bec[1]) : ''}.</p>` : ''}
       </div>
       <div class="listen">
-        ${link('', ep.links.youtube, '<span class="ic yt">▶</span>יוטיוב')}
-        ${link('', ep.links.spotify, '<span class="ic sp">♪</span>ספוטיפיי')}
-        ${link('', ep.links.apple, '<span class="ic ap">♫</span>אפל')}
+        ${link('', ep.links.youtube, `<span class="ic yt">${ic('i-yt')}</span>יוטיוב`)}
+        ${link('', ep.links.spotify, `<span class="ic sp">${ic('i-sp')}</span>ספוטיפיי`)}
+        ${link('', ep.links.apple, `<span class="ic ap">${ic('i-ap')}</span>אפל`)}
       </div>
       <div class="follow">
         <div class="lbl">עקוב אחרי ${esc(sh.name || ep.show)}:</div>
-        <div class="row">${link('yt', sh.youtube, 'יוטיוב')}${link('sp', sh.spotify_show, 'ספוטיפיי')}${link('ap', sh.apple_show, 'אפל')}</div>
+        <div class="row">${link('yt', sh.youtube, ic('i-yt') + 'יוטיוב')}${link('sp', sh.spotify_show, ic('i-sp') + 'ספוטיפיי')}${link('ap', sh.apple_show, ic('i-ap') + 'אפל')}</div>
       </div>`;
   }
   function another() {
     if (!state.pool.length) return;
     state.pick = (state.pick + 1) % state.pool.length;
-    renderCard(); $('card').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    renderCard(); $('card').classList.remove('reveal'); replay($('card'), 'swap');
+    $('card').scrollIntoView({ behavior: 'smooth', block: 'start' });
     toast(state.pick === 0 ? 'חזרנו לפרק הראשון שבחרנו לך' : 'עוד פרק שמתאים לך');
   }
   function toast(msg) { const t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(t._t); t._t = setTimeout(() => { t.hidden = true; }, 2200); }
@@ -175,8 +181,7 @@
       const v = Date.now().toString(36).slice(0, 6);
       const [quiz, episodes, shows] = await Promise.all(['quiz', 'episodes', 'shows'].map((n) => fetch(`data/${n}.json?v=${v}`).then((r) => { if (!r.ok) throw new Error(n); return r.json(); })));
       state.quiz = quiz; state.episodes = episodes.filter((e) => e.quotes && e.quotes.length); state.shows = shows;
-      $('intro-meta').textContent = `${state.episodes.length} פרקים · 4 תוכניות · ${quiz.meta.version}`;
-      $('foot-meta').textContent = quiz.meta.version;
+      $('intro-meta').textContent = `${state.episodes.length} פרקים מארבע תוכניות`;
     } catch (e) {
       $('intro-meta').textContent = 'לא הצלחנו לטעון את הפרקים. נסה לרענן.';
       return;
