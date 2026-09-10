@@ -185,9 +185,8 @@
       const v = Date.now().toString(36).slice(0, 6);
       const [quiz, episodes, shows] = await Promise.all(['quiz', 'episodes', 'shows'].map((n) => fetch(`data/${n}.json?v=${v}`).then((r) => { if (!r.ok) throw new Error(n); return r.json(); })));
       state.quiz = quiz; state.episodes = episodes.filter((e) => e.quotes && e.quotes.length); state.shows = shows;
-      $('intro-meta').textContent = `${state.episodes.length} פרקים מארבע תוכניות`;
     } catch (e) {
-      $('intro-meta').textContent = 'הפרקים לא נטענו. כדאי לרענן את הדף.';
+      toast('הפרקים לא נטענו. כדאי לרענן את הדף.');
       return;
     }
   }
